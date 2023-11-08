@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.serif { font-family: "new-spirit", serif; }
+.serif_condensed { font-family: "new-spirit-condensed", serif; }
+
+html, body {
+    @apply h-full;
+}
+
+.dark hr:not(.divider) {
+    border-color: rgb(var(--color-primary-500));
+}

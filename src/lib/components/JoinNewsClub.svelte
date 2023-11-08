@@ -1,0 +1,3 @@
+<stripe-pricing-table pricing-table-id="prctbl_1O2g1lETOuUk9BMklClvahrs"
+publishable-key="pk_live_51NwsRSETOuUk9BMkz1RAXU7PjVvBApOaYSAOMS2I9bZFpaUtiOV4DlJFBn3ItXo3Viey3zHIlepPpIq6NZ51VtPe00aJwI68bp">
+</stripe-pricing-table>
