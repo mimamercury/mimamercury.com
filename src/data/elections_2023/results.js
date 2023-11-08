@@ -91,11 +91,47 @@ const fire = {
     },
     south_bay: {
         name: 'Fire District No. 8',
-        location: locations.tumwater,
+        location: locations.olympia,
     },
     mclane_black_lake: {
         name: 'Fire Protection District No. 9',
+        location: locations.olympia,
     },
+    district_12: {
+        name: 'Fire Protection District No. 12',
+        location: locations.tenino,
+    },
+    griffin: {
+        name: 'Fire Protection District No. 13',
+        location: locations.thurston,
+    },
+    bald_hills: {
+        name: 'Fire Protection District No. 17',
+    },
+    southeast_thurston: {
+        name: 'SE Thurston Fire Authority',
+    },
+    west_thurston: {
+        name: 'West Thurston Regional Fire Authority',
+    },
+    west_thurston_littlerock: {
+        name: 'West Thurston Regional Fire Authority (Littlerock)',
+    },
+}
+
+const parks = {
+    tanglewilde: {
+        name: 'Tanglewilde Parks & Recreation District No. 1',
+    },
+}
+
+const cemetary = {
+    grand_mound: {
+        name: 'Cemetery District No. 1',
+    },
+    yelm: {
+        name: 'Cemetery District No. 2',
+    }
 }
 
 export const results = {
@@ -116,6 +152,221 @@ export const results = {
             },
         ],
         offices: [
+            {
+                title: 'Mayor',
+                description: 'Four year term',
+                location: locations.olympia,
+                overvotes: 0,
+                undervotes: 236,
+                contest_totals: 8330,
+                candidates: [
+                    {
+                        name: 'Dontae Payne',
+                        party: null,
+                        votes: 5425,
+                    },
+                    {
+                        name: 'David Ross',
+                        party: null,
+                        votes: 2626,
+                    },
+                    {
+                        name: 'Write-in',
+                        votes: 43,
+                    }
+                ]
+            },
+            {
+                title: 'City Council Position No. 2',
+                description: 'Four year term',
+                location: locations.olympia,
+                overvotes: 0,
+                undervotes: 2075,
+                contest_totals: 0,
+                candidates: [
+                    {
+                        name: 'Yen Huynh',
+                        party: null,
+                        votes: 6013,
+                    },
+                    {
+                        name: 'Write-in',
+                        votes: 242,
+                    }
+                ]
+            },
+            {
+                title: 'City Council Position No. 3',
+                description: 'Four year term',
+                location: locations.olympia,
+                overvotes: 0,
+                undervotes: 2060,
+                contest_totals: 8330,
+                candidates: [
+                    {
+                        name: 'Dani Madrone',
+                        party: null,
+                        votes: 6037,
+                    },
+                    {
+                        name: 'Write-in',
+                        votes: 233,
+                    }
+                ]
+            },
+            {
+                title: 'City Council Position No. 1',
+                description: 'Four year term',
+                location: locations.lacey,
+                overvotes: 0,
+                undervotes: 1246,
+                contest_totals: 6533,
+                candidates: [
+                    {
+                        name: 'Malcolm Miller',
+                        party: null,
+                        votes: 5163,
+                    },
+                    {
+                        name: 'Write-in',
+                        votes: 124,
+                    }
+                ]
+            },
+            {
+                title: 'City Council Position No. 2',
+                description: 'Four year term',
+                location: locations.lacey,
+                overvotes: 0,
+                undervotes: 384,
+                contest_totals: 6533,
+                candidates: [
+                    {
+                        name: 'Spencer Zeman',
+                        party: null,
+                        votes: 2617,
+                    },
+                    {
+                        name: 'Lenny Greenstein',
+                        party: null,
+                        votes: 3501,
+                    },
+                    {
+                        name: 'Write-in',
+                        votes: 31,
+                    }
+                ]
+            },
+            {
+                title: 'City Council Position No. 3',
+                description: 'Four year term',
+                location: locations.lacey,
+                overvotes: 0,
+                undervotes: 412,
+                contest_totals: 6533,
+                candidates: [
+                    {
+                        name: 'Nicolas Dunning',
+                        party: null,
+                        votes: 3927,
+                    },
+                    {
+                        name: 'Ed Kunkel',
+                        party: null,
+                        votes: 2153,
+                    },
+                    {
+                        name: 'Write-in',
+                        votes: 41,
+                    }
+                ]
+            },
+            {
+                title: 'City Council Position No. 1',
+                description: 'Four year term',
+                location: locations.tumwater,
+                overvotes: 0,
+                undervotes: 966,
+                contest_totals: 3501,
+                candidates: [
+                    {
+                        name: 'Leatta Dahlhoff',
+                        party: null,
+                        votes: 2479,
+                    },
+                    {
+                        name: 'Write-in',
+                        votes: 56,
+                    }
+                ]
+            },
+            {
+                title: 'City Council Position No. 2',
+                description: 'Four year term',
+                location: locations.tumwater,
+                overvotes: 0,
+                undervotes: 926,
+                contest_totals: 3501,
+                candidates: [
+                    {
+                        name: 'Angela Jefferson',
+                        party: null,
+                        votes: 2529,
+                    },
+                    {
+                        name: 'Write-in',
+                        votes: 46,
+                    }
+                ]
+            },
+            {
+                title: 'City Council Position No. 3',
+                description: 'Four year term',
+                location: locations.tumwater,
+                overvotes: 0,
+                undervotes: 422,
+                contest_totals: 3501,
+                candidates: [
+                    {
+                        name: 'Doris Atkinson',
+                        party: null,
+                        votes: 493,
+                    },
+                    {
+                        name: 'Joan Cathey',
+                        party: null,
+                        votes: 2556,
+                    },
+                    {
+                        name: 'Write-in',
+                        votes: 30,
+                    }
+                ]
+            },
+            {
+                title: 'City Council Position No. 7',
+                description: 'Four year term',
+                location: locations.tumwater,
+                overvotes: 0,
+                undervotes: 265,
+                contest_totals: 3501,
+                candidates: [
+                    {
+                        name: 'Andrea McGhee',
+                        party: null,
+                        votes: 1563,
+                    },
+                    {
+                        name: 'Kelly Von Holtz',
+                        party: null,
+                        votes: 1660,
+                    },
+                    {
+                        name: 'Write-in',
+                        votes: 13,
+                    }
+                ]
+            },
             {
                 title: 'County Commissioner, District No. 4',
                 description: 'One year unexpired term',
@@ -237,7 +488,7 @@ export const results = {
                 ]
             },
             {
-                title: 'Mayor', 
+                title: 'Mayor',
                 description: 'Two year unexpired term',
                 location: locations.bucoda,
                 overvotes: 0,
@@ -338,135 +589,6 @@ export const results = {
                     {
                         name: 'Write-in',
                         votes: 0,
-                    }
-                ]
-            },
-            {
-                title: 'City Council Position No. 1',
-                description: 'Four year term',
-                location: locations.lacey,
-                overvotes: 0,
-                undervotes: 1246,
-                contest_totals: 6533,
-                candidates: [
-                    {
-                        name: 'Malcolm Miller',
-                        party: null,
-                        votes: 5163,
-                    },
-                    {
-                        name: 'Write-in',
-                        votes: 124,
-                    }
-                ]
-            },
-            {
-                title: 'City Council Position No. 2',
-                description: 'Four year term',
-                location: locations.lacey,
-                overvotes: 0,
-                undervotes: 384,
-                contest_totals: 6533,
-                candidates: [
-                    {
-                        name: 'Spencer Zeman',
-                        party: null,
-                        votes: 2617,
-                    },
-                    {
-                        name: 'Lenny Greenstein',
-                        party: null,
-                        votes: 3501,
-                    },
-                    {
-                        name: 'Write-in',
-                        votes: 31,
-                    }
-                ]
-            },
-            {
-                title: 'City Council Position No. 3',
-                description: 'Four year term',
-                location: locations.lacey,
-                overvotes: 0,
-                undervotes: 412,
-                contest_totals: 6533,
-                candidates: [
-                    {
-                        name: 'Nicolas Dunning',
-                        party: null,
-                        votes: 3927,
-                    },
-                    {
-                        name: 'Ed Kunkel',
-                        party: null,
-                        votes: 2153,
-                    },
-                    {
-                        name: 'Write-in',
-                        votes: 41,
-                    }
-                ]
-            },
-            {
-                title: 'Mayor',
-                description: 'Four year term',
-                location: locations.olympia,
-                overvotes: 0,
-                undervotes: 236,
-                contest_totals: 8330,
-                candidates: [
-                    {
-                        name: 'Dontae Payne',
-                        party: null,
-                        votes: 5425,
-                    },
-                    {
-                        name: 'David Ross',
-                        party: null,
-                        votes: 2626,
-                    },
-                    {
-                        name: 'Write-in',
-                        votes: 43,
-                    }
-                ]
-            },
-            {
-                title: 'City Council Position No. 2',
-                description: 'Four year term',
-                location: locations.olympia,
-                overvotes: 0,
-                undervotes: 2075,
-                contest_totals: 0,
-                candidates: [
-                    {
-                        name: 'Yen Huynh',
-                        party: null,
-                        votes: 6013,
-                    },
-                    {
-                        name: 'Write-in',
-                        votes: 242,
-                    }
-                ]
-            },
-            {
-                title: 'City Council Position No. 3',
-                description: 'Four year term',
-                location: locations.olympia,
-                overvotes: 0,
-                undervotes: 2060,
-                contest_totals: 8330,
-                candidates: [
-                    {
-                        name: 'Dani Madrone',
-                        party: null,
-                        votes: 6037,
-                    },
-                    {
-                        name: 'Write-in',
-                        votes: 233,
                     }
                 ]
             },
@@ -572,92 +694,6 @@ export const results = {
                     {
                         name: 'Write-in',
                         votes: 4,
-                    }
-                ]
-            },
-            {
-                title: 'City Council Position No. 1',
-                description: 'Four year term',
-                location: locations.tumwater,
-                overvotes: 0,
-                undervotes: 966,
-                contest_totals: 3501,
-                candidates: [
-                    {
-                        name: 'Leatta Dahlhoff',
-                        party: null,
-                        votes: 2479,
-                    },
-                    {
-                        name: 'Write-in',
-                        votes: 56,
-                    }
-                ]
-            },
-            {
-                title: 'City Council Position No. 2',
-                description: 'Four year term',
-                location: locations.tumwater,
-                overvotes: 0,
-                undervotes: 926,
-                contest_totals: 3501,
-                candidates: [
-                    {
-                        name: 'Angela Jefferson',
-                        party: null,
-                        votes: 2529,
-                    },
-                    {
-                        name: 'Write-in',
-                        votes: 46,
-                    }
-                ]
-            },
-            {
-                title: 'City Council Position No. 3',
-                description: 'Four year term',
-                location: locations.tumwater,
-                overvotes: 0,
-                undervotes: 422,
-                contest_totals: 3501,
-                candidates: [
-                    {
-                        name: 'Doris Atkinson',
-                        party: null,
-                        votes: 493,
-                    },
-                    {
-                        name: 'Joan Cathey',
-                        party: null,
-                        votes: 2556,
-                    },
-                    {
-                        name: 'Write-in',
-                        votes: 30,
-                    }
-                ]
-            },
-            {
-                title: 'City Council Position No. 7',
-                description: 'Four year term',
-                location: locations.tumwater,
-                overvotes: 0,
-                undervotes: 265,
-                contest_totals: 3501,
-                candidates: [
-                    {
-                        name: 'Andrea McGhee',
-                        party: null,
-                        votes: 1563,
-                    },
-                    {
-                        name: 'Kelly Von Holtz',
-                        party: null,
-                        votes: 1660,
-                    },
-                    {
-                        name: 'Write-in',
-                        votes: 13,
                     }
                 ]
             },
@@ -1346,6 +1382,445 @@ export const results = {
                     }
                 ]
             },
+            {
+                title: 'Fire Commissioner, Position No. 3',
+                description: 'Six year term',
+                location: fire.lacey,
+                overvotes: 0,
+                undervotes: 2769,
+                contest_totals: 12645,
+                candidates: [
+                    {
+                        name: 'Frank Kirkbride',
+                        party: null,
+                        votes: 9738,
+                    },
+                    {
+                        name: 'Write-in',
+                        votes: 138,
+                    }
+                ]
+            },
+            {
+                title: 'Fire Commissioner, Position No. 4',
+                description: 'Six year term',
+                location: fire.lacey,
+                overvotes: 0,
+                undervotes: 2920,
+                contest_totals: 12645,
+                candidates: [
+                    {
+                        name: 'Liberty Hetzler',
+                        party: null,
+                        votes: 9558,
+                    },
+                    {
+                        name: 'Write-in',
+                        votes: 0,
+                    }
+                ]
+            },
+            {
+                title: 'Fire Commissioner, Position No. 3',
+                description: 'Six year term',
+                location: fire.east_olympia,
+                overvotes: 0,
+                undervotes: 527,
+                contest_totals: 2216,
+                candidates: [
+                    {
+                        name: 'Brandon Faust',
+                        party: null,
+                        votes: 1653,
+                    },
+                    {
+                        name: 'Write-in',
+                        votes: 36,
+                    }
+                ]
+            },
+            {
+                title: 'Fire Commissioner, Position No. 1',
+                description: 'Six year term',
+                location: fire.south_bay,
+                overvotes: 0,
+                undervotes: 556,
+                contest_totals: 0,
+                candidates: [
+                    {
+                        name: 'Gloria Zvirzdys',
+                        party: null,
+                        votes: 1795,
+                    },
+                    {
+                        name: 'Write-in',
+                        votes: 42,
+                    }
+                ]
+            },
+            {
+                title: 'Fire Commissioner, Position No. 2',
+                description: 'Six year term',
+                location: fire.south_bay,
+                overvotes: 0,
+                undervotes: 542,
+                contest_totals: 2393,
+                candidates: [
+                    {
+                        name: 'Jake Hunter',
+                        party: null,
+                        votes: 1817,
+                    },
+                    {
+                        name: 'Write-in',
+                        votes: 34,
+                    }
+                ]
+            },
+            {
+                title: 'Fire Commissioner, Position No. 3',
+                description: 'Six year term',
+                location: fire.mclane_black_lake,
+                overvotes: 0,
+                undervotes: 874,
+                contest_totals: 2799,
+                candidates: [
+                    {
+                        name: 'Len Albert',
+                        party: null,
+                        votes: 1903,
+                    },
+                    {
+                        name: 'Write-in',
+                        votes: 22,
+                    }
+                ]
+            },
+            {
+                title: 'Fire Commissioner, Position No. 4',
+                description: 'Four year unexpired term',
+                location: fire.mclane_black_lake,
+                overvotes: 0,
+                undervotes: 926,
+                contest_totals: 2799,
+                candidates: [
+                    {
+                        name: 'Jason A Foust',
+                        party: null,
+                        votes: 1848,
+                    },
+                    {
+                        name: 'Write-in',
+                        votes: 25,
+                    }
+                ]
+            },
+            {
+                title: 'Fire Commissioner, Position No. 5',
+                description: 'Six year term',
+                location: fire.mclane_black_lake,
+                overvotes: 0,
+                undervotes: 869,
+                contest_totals: 2799,
+                candidates: [
+                    {
+                        name: 'Mark Thompson',
+                        party: null,
+                        votes: 1906,
+                    },
+                    {
+                        name: 'Write-in',
+                        votes: 24,
+                    }
+                ]
+            },
+            {
+                title: 'Fire Commissioner, Position No. 4',
+                description: 'Six year term',
+                location: fire.district_12,
+                overvotes: 0,
+                undervotes: 282,
+                contest_totals: 1154,
+                candidates: [
+                    {
+                        name: 'James Freed',
+                        party: null,
+                        votes: 843,
+                    },
+                    {
+                        name: 'Write-in',
+                        votes: 29,
+                    }
+                ]
+            },
+            {
+                title: 'Fire Commissioner, Position No. 1',
+                description: 'Four year unexpired term',
+                location: fire.griffin,
+                overvotes: 0,
+                undervotes: 339,
+                contest_totals: 1360,
+                candidates: [
+                    {
+                        name: 'Arthur Dalessandro',
+                        party: null,
+                        votes: 1010,
+                    },
+                    {
+                        name: 'Write-in',
+                        votes: 11,
+                    }
+                ]
+            },
+            {
+                title: 'Fire Commissioner, Position No. 3',
+                description: 'Six year term',
+                location: fire.griffin,
+                overvotes: 0,
+                undervotes: 331,
+                contest_totals: 1360,
+                candidates: [
+                    {
+                        name: 'Dave Pearsall',
+                        party: null,
+                        votes: 1014,
+                    },
+                    {
+                        name: 'Write-in',
+                        votes: 15,
+                    }
+                ]
+            },
+            {
+                title: 'Fire Commissioner, Position No. 1',
+                description: 'Six year term',
+                location: fire.bald_hills,
+                overvotes: 0,
+                undervotes: 80,
+                contest_totals: 435,
+                candidates: [
+                    {
+                        name: 'Harry W. Miller',
+                        party: null,
+                        votes: 345,
+                    },
+                    {
+                        name: 'Write-in',
+                        votes: 10,
+                    }
+                ]
+            },
+            {
+                title: 'Sub Region 1 Fire Commissioner, Position No. 2',
+                description: 'Six year term',
+                location: fire.southeast_thurston,
+                overvotes: 0,
+                undervotes: 751,
+                contest_totals: 2945,
+                candidates: [
+                    {
+                        name: 'David Shepherd',
+                        party: null,
+                        votes: 2158,
+                    },
+                    {
+                        name: 'Write-in',
+                        votes: 36,
+                    }
+                ]
+            },
+            {
+                title: 'Sub Region 2 Fire Commissioner, Position No. 2',
+                description: 'Jeff Dehan',
+                location: fire.southeast_thurston,
+                overvotes: 0,
+                undervotes: 695,
+                contest_totals: 2945,
+                candidates: [
+                    {
+                        name: 'Jeff DeHan',
+                        party: null,
+                        votes: 2220,
+                    },
+                    {
+                        name: 'Write-in',
+                        votes: 30,
+                    }
+                ]
+            },
+            {
+                title: 'Sub Region 3 Fire Commissioner, Position No. 1',
+                description: 'Four year unexpired term',
+                location: fire.southeast_thurston,
+                overvotes: 0,
+                undervotes: 800,
+                contest_totals: 2945,
+                candidates: [
+                    {
+                        name: 'Bill DeVore',
+                        party: null,
+                        votes: 2092,
+                    },
+                    {
+                        name: 'Write-in',
+                        votes: 53,
+                    }
+                ]
+            },
+            {
+                title: 'Sub Region 3 Fire Commissioner, Position No. 2',
+                description: 'Six year term',
+                location: fire.southeast_thurston,
+                overvotes: 0,
+                undervotes: 742,
+                contest_totals: 2945,
+                candidates: [
+                    {
+                        name: 'Steven Slater',
+                        party: null,
+                        votes: 2171,
+                    },
+                    {
+                        name: 'Write-in',
+                        votes: 32,
+                    }
+                ]
+            },
+            {
+                title: 'Fire Commissioner, Position No. 1',
+                description: 'Six year term',
+                location: fire.west_thurston,
+                overvotes: 0,
+                undervotes: 375,
+                contest_totals: 1710,
+                candidates: [
+                    {
+                        name: 'Jeff Merryman',
+                        party: null,
+                        votes: 1125,
+                    },
+                    {
+                        name: 'Write-in',
+                        votes: 210,
+                    }
+                ]
+            },
+            {
+                title: 'Fire Commissioner, Position No. 2',
+                description: 'Six year term',
+                location: fire.west_thurston_littlerock,
+                overvotes: 0,
+                undervotes: 407,
+                contest_totals: 1574,
+                candidates: [
+                    {
+                        name: 'Michael Reed',
+                        party: null,
+                        votes: 1011,
+                    },
+                    {
+                        name: 'Write-in',
+                        votes: 156,
+                    }
+                ]
+            },
+            {
+                title: 'Parks & Recreation Commissioner, Position No. 1',
+                description: 'Two year unexpired term',
+                location: parks.tanglewilde,
+                overvotes: 0,
+                undervotes: 43,
+                contest_totals: 243,
+                candidates: [
+                    {
+                        name: 'Dayv Lowry',
+                        party: null,
+                        votes: 193,
+                    },
+                    {
+                        name: 'Write-in',
+                        votes: 7,
+                    }
+                ]
+            },
+            {
+                title: 'Parks & Recreation Commissioner, Position No. 5',
+                description: 'Two year unexpired term',
+                location: parks.tanglewilde,
+                overvotes: 0,
+                undervotes: 62,
+                contest_totals: 243,
+                candidates: [
+                    {
+                        name: 'Alexis Wallace',
+                        party: null,
+                        votes: 169,
+                    },
+                    {
+                        name: 'Write-in',
+                        votes: 12,
+                    }
+                ]
+            },
+            {
+                title: 'Cemetary Commissioner, Position No. 3',
+                description: 'Six year term',
+                location: cemetary.grand_mound,
+                overvotes: 0,
+                undervotes: 431,
+                contest_totals: 1986,
+                candidates: [
+                    {
+                        name: 'Marc S. Spiegelberg',
+                        party: null,
+                        votes: 1533,
+                    },
+                    {
+                        name: 'Write-in',
+                        votes: 22,
+                    }
+                ]
+            },
+            {
+                title: 'Cemetery Commissioner, Position No. 3',
+                description: 'Six year term',
+                location: cemetary.yelm,
+                overvotes: 0,
+                undervotes: 650,
+                contest_totals: 2573,
+                candidates: [
+                    {
+                        name: 'Kristen Colt',
+                        party: null,
+                        votes: 1822,
+                    },
+                    {
+                        name: 'Write-in',
+                        votes: 101,
+                    }
+                ]
+            },
         ]
     }
 
+/*
+{
+    title: '',
+    description: '',
+    location:
+    overvotes: 0,
+    undervotes: 0,
+    contest_totals: 0,
+    candidates: [
+        {
+            name: '',
+            party: null,
+            votes: 0,
+        },
+        {
+            name: 'Write-in',
+            votes: 0,
+        }
+    ]
+},
+*/
