@@ -79,6 +79,25 @@ const school_districts = {
     }
 }
 
+
+const fire = {
+    lacey: {
+        name: 'Fire District No. 3',
+        location: locations.lacey,
+    },
+    east_olympia: {
+        name: 'Fire District No. 6',
+        location: locations.olympia,
+    },
+    south_bay: {
+        name: 'Fire District No. 8',
+        location: locations.tumwater,
+    },
+    mclane_black_lake: {
+        name: 'Fire Protection District No. 9',
+    },
+}
+
 export const results = {
         overview: {
             title:'Total results',

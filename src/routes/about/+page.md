@@ -49,4 +49,8 @@ There are a few ways you can help make _The Mima Mercury_ continue to exist:
 - Share your ideas for what news is missing from coverage of Olympia and the broader South Sound area.
 - Join the [newsletter](/about/membership/newsletter/)! We'll send updates about other ways to get involved.
 
+## Join the weekly newsletter
+
 <Newsletter />
+
+[More information about the newsletter.](/about/membership/newsletter)
