@@ -11,7 +11,7 @@ function percent (num, total) {
 </script>
 
 <h1 class="not-prose text-center font-bold text-3xl mb-1">2023 Thurston County Elections</h1>
-<p class="italic text-center not-prose mt-0 text-sm text-surface-300">Results as of 8 p.m. November 7, 2023</p>
+<p class="italic text-center not-prose mt-0 text-sm text-surface-300">Unofficial results as of 8 p.m. November 7, 2023</p>
 <div class="grid grid-flow-col justify-center gap-12 mt-12">
     <div class="">
         <p class="text-center text-surface-200 italic not-prose mb-0">Total Ballots Cast</p>
@@ -68,7 +68,9 @@ function percent (num, total) {
     </p> -->
 </div>
 
-<HorizontalBar left_padding={165} data={office.candidates.map((candidate) => {
+<HorizontalBar left_padding={165} data={office.candidates.filter((candidate) => {
+    return candidate.name !== 'Write-in'
+}).map((candidate) => {
     return {
         label: candidate.name,
         value: candidate.votes
