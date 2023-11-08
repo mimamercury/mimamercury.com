@@ -35,7 +35,7 @@ data.forEach(d => {
     padding={{ top: 0, bottom: 20, left: left_padding }}
     x={xKey}
     y={yKey}
-    yScale={scaleBand().padding(0.2)}
+    yScale={scaleBand().padding(0.3)}
     xDomain={[0, null]}
     data={data}
 >
