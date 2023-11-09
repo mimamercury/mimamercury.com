@@ -18,6 +18,7 @@ await markdownDirectoryToTable({
     directoryFilepath: postsDirectory,
     tableName: 'posts',
     db,
+    sanitize: false,
     columns: {
         title: 'TEXT',
         slug: 'TEXT',
@@ -35,6 +36,7 @@ await markdownDirectoryToTable({
     directoryFilepath: topicsDirectory,
     tableName: 'topics',
     db,
+    sanitize: false,
     columns: {
         title: 'TEXT',
         slug: 'TEXT',
@@ -47,6 +49,7 @@ await markdownDirectoryToTable({
     directoryFilepath: linksDirectory,
     tableName: 'links',
     db,
+    sanitize: false,
     columns: {
         title: 'TEXT',
         slug: 'TEXT',

@@ -33,7 +33,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@editorialapp/datatools": "^1.0.3",
+    "@editorialapp/datatools": "^1.1.0",
     "better-sqlite3": "^9.1.0",
     "d3-scale": "^4.0.2",
     "layercake": "^8.0.2"

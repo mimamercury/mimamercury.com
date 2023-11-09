@@ -15,7 +15,7 @@ The State of Washington [Voter Portal](https://voter.votewa.gov/WhereToVote.aspx
 
 Today I learned my younger sister has voted more times than me.
 
-<iframe src="https://giphy.com/embed/nIAUTFGeAzVIc" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHp1dHdyb2NlN2RveHYzazJkbGlneDFjbjNrdjIwbmtoZ3BzanhzMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nIAUTFGeAzVIc/giphy-downsized.gif" alt="Will Farell saying 'I'm a little embarrassed">
 
 Is Washington's voter portal intended to be used this way? Probably not? Finding out people's birthdays is often easy. This portal also shares current address information. This _could_ be used in harmful ways, though this information and more is freely available for every voter in the state via the [Washington State Voter Registration Database](https://www.sos.wa.gov/elections/data-research/washington-state-voter-registration-database-vrdb).
 

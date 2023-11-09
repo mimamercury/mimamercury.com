@@ -11,5 +11,4 @@ topics: []
 
 I've been daydreaming about creating this website for years, and now it has finally happened.
 
-<iframe src="https://giphy.com/embed/mUVVVDMknqvcisoe4B" width="429" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/mUVVVDMknqvcisoe4B">via GIPHY</a></p>
-
+<iframe src="https://giphy.com/embed/mUVVVDMknqvcisoe4B" width="429" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
