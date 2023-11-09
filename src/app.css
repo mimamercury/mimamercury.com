@@ -12,3 +12,11 @@ html, body {
 .dark hr:not(.divider) {
     border-color: rgb(var(--color-primary-500));
 }
+
+.prose p {
+    @apply font-serif;
+}
+
+.prose img {
+    border: 2px solid white;
+}
