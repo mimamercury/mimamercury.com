@@ -6,7 +6,7 @@
 .serif_condensed { font-family: "new-spirit-condensed", serif; }
 
 html, body {
-    @apply h-full;
+    @apply h-full overflow-hidden;
 }
 
 .dark hr:not(.divider) {

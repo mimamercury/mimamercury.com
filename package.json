@@ -3,6 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "timestamp": "date +%s",
+    "build_data": "node scripts/data.js",
     "dev": "vite dev",
     "build": "vite build",
     "preview": "vite preview",
@@ -14,8 +16,8 @@
     "@auth/sveltekit": "^0.3.9",
     "@skeletonlabs/skeleton": "^2.3.0",
     "@skeletonlabs/tw-plugin": "^0.2.2",
-    "@sveltejs/adapter-auto": "^2.1.0",
-    "@sveltejs/kit": "^1.20.4",
+    "@sveltejs/adapter-auto": "^2.1.1",
+    "@sveltejs/kit": "^1.27.3",
     "@tailwindcss/forms": "^0.5.4",
     "@tailwindcss/typography": "^0.5.9",
     "autoprefixer": "^10.4.14",
@@ -23,7 +25,7 @@
     "nodemailer": "^6.9.6",
     "postcss": "^8.4.24",
     "postcss-load-config": "^4.0.1",
-    "svelte": "^4.2.1",
+    "svelte": "^4.2.2",
     "svelte-check": "^3.5.2",
     "tailwindcss": "^3.3.3",
     "typescript": "^5.2.2",
@@ -31,6 +33,8 @@
   },
   "type": "module",
   "dependencies": {
+    "@editorialapp/datatools": "^1.0.3",
+    "better-sqlite3": "^9.1.0",
     "d3-scale": "^4.0.2",
     "layercake": "^8.0.2"
   }

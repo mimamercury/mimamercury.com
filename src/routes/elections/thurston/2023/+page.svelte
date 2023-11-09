@@ -30,6 +30,18 @@ function percent (num, total) {
 </div>
 
 <hr class="divider w-72 mx-auto border-bottom-surface-100">
+<p class="mb-4 font-bold text-2xl center">Recent Elections posts</p>
+
+{#each data.elections_2023_posts as post}
+<p>
+  <a href="/posts/{post.slug}/">
+    {post.title}
+  </a>
+</p>
+{/each}
+
+
+<hr class="divider w-72 mx-auto border-bottom-surface-100">
 
 {#each propositions as proposition}
 <h2>{proposition.title}</h2>
