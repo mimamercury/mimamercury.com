@@ -5,8 +5,8 @@
   "scripts": {
     "timestamp": "date +%s",
     "build_data": "node scripts/data.js",
-    "dev": "vite dev",
-    "build": "vite build",
+    "dev": "npm run build_data && vite dev",
+    "build": "npm run build_data && vite build",
     "preview": "vite preview",
     "check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch"
