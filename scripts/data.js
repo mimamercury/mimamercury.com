@@ -45,26 +45,26 @@ await markdownDirectoryToTable({
     }
 })
 
-await markdownDirectoryToTable({
-    directoryFilepath: linksDirectory,
-    tableName: 'links',
-    db,
-    sanitize: false,
-    columns: {
-        title: 'TEXT',
-        slug: 'TEXT',
-        created: 'INT64',
-        updated: 'INT64',
-        content: 'TEXT',
-        topics: 'TEXT[]',
-        promoted: 'BOOLEAN',
-    }
-})
+// await markdownDirectoryToTable({
+//     directoryFilepath: linksDirectory,
+//     tableName: 'links',
+//     db,
+//     sanitize: false,
+//     columns: {
+//         title: 'TEXT',
+//         slug: 'TEXT',
+//         created: 'INT64',
+//         updated: 'INT64',
+//         content: 'TEXT',
+//         topics: 'TEXT[]',
+//         promoted: 'BOOLEAN',
+//     }
+// })
 
 const posts = db.prepare('SELECT * FROM posts ORDER BY created DESC;').all()
 const topics = db.prepare('SELECT * FROM topics;').all()
-const links = db.prepare('SELECT * FROM links ORDER BY created DESC;').all()
+// const links = db.prepare('SELECT * FROM links ORDER BY created DESC;').all()
 
 await writeJson(postsJsonFilepath, posts)
 await writeJson(topicsJsonFilepath, topics)
-await writeJson(linksJsonFilepath, links)
+// await writeJson(linksJsonFilepath, links)
