@@ -8,5 +8,6 @@ Send over an email with ideas you have about topics that ought to be covered in 
 - Twitter: [@mimamercury](https://twitter.com/mimamercury)
 - Threads: [@mimamercury](https://threads.net/mimamercury)
 - Facebook: [The Mima Mercury](https://www.facebook.com/mimamercury)
+- GitHub: [github.com/mimamercury](github.com/mimamercury)
 
 <p class="not-prose text-xs">Also: please don't make fun of the social media accounts being empty. They're still being set up!</p>
