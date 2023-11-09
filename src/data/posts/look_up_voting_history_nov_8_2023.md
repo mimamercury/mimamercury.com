@@ -13,7 +13,7 @@ All you need is someone's birthday and first and last names to check out their v
 
 The State of Washington [Voter Portal](https://voter.votewa.gov/WhereToVote.aspx) doesn't indicate that you can look up voting histories other than your own, but you absolutely can.
 
-Today I learned my youger sister has voted more times than me.
+Today I learned my younger sister has voted more times than me.
 
 <iframe src="https://giphy.com/embed/nIAUTFGeAzVIc" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 
