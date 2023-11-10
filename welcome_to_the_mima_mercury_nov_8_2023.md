@@ -9,7 +9,7 @@ updated: 1
 topics: []
 ---
 
-I've been daydreaming about creating this website for years, and now it is finally happening.
+
 
 ![A character from Our Flag Means Death saying "Oh my God, it's finally happening"](https://media.giphy.com/media/mUVVVDMknqvcisoe4B/giphy.gif)
 
