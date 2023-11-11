@@ -2,9 +2,6 @@
 import { getContext } from 'svelte';
 
 const { data, xGet, yGet, xScale, yScale } = getContext('LayerCake');
-
-export let fill = '#7EF2CF';
-// #32786F
 </script>
 
 <g class="bar-group">
