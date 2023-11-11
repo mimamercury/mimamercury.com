@@ -4,6 +4,7 @@ const { MimaMercuryTheme } = require('./src/lib/mima_mercury_theme.js')
 
 /** @type {import('tailwindcss').Config}*/
 const config = {
+  darkMode: 'class',
   content: [
     './src/**/*.{html,js,svelte,ts,md}',
     path.join(require.resolve('@skeletonlabs/skeleton'), '../**/*.{html,js,svelte,ts}')

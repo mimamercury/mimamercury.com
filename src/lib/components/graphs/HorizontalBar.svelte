@@ -1,6 +1,7 @@
 <script>
 import { LayerCake, Svg } from 'layercake';
 import { scaleBand, scaleLinear } from 'd3-scale';
+import { modeCurrent } from '@skeletonlabs/skeleton';
 
 import Bar from './Bar.svelte';
 import AxisX from './AxisX.svelte';
@@ -21,6 +22,9 @@ const yKey = 'label';
 data.forEach(d => {
     d[xKey] = +d[xKey];
 });
+
+let fill = 'fill-black';
+$: fill = $modeCurrent ? 'fill-black' : 'fill-white';
 </script>
 
 <style>
@@ -60,6 +64,7 @@ data.forEach(d => {
     <AxisY
         ticks={1}
         gridlines={false}
+        fill_color={fill}
     />
     <Bar/>
     </Svg>

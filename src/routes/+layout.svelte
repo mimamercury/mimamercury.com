@@ -3,8 +3,9 @@ import "../app.css";
 
 import { onMount } from "svelte";
 import { beforeNavigate, afterNavigate, disableScrollHandling } from "$app/navigation";
-import { autoModeWatcher } from '@skeletonlabs/skeleton';
+import { AppRailTile, autoModeWatcher } from '@skeletonlabs/skeleton';
 import { AppShell, AppRail, AppRailAnchor } from '@skeletonlabs/skeleton';
+import { LightSwitch } from '@skeletonlabs/skeleton';
 
 import HeaderMenu from '$lib/components/HeaderMenu.svelte';
 import Newsletter from '$lib/components/Newsletter.svelte';
@@ -42,7 +43,7 @@ afterNavigate((params) => {
 })
 </script>
 
-<svelte:head>{@html `<script>${autoModeWatcher.toString()} autoModeWatcher();</script>`}</svelte:head>
+<!-- <svelte:head>{@html `<script>${autoModeWatcher.toString()} autoModeWatcher();</script>`}</svelte:head> -->
 
 <AppShell slotPageHeader="px-4 py-8 mb-8" slotSidebarRight="" slotPageFooter="p-8" scrollbarGutter="stable">
   <svelte:fragment slot="pageHeader">
@@ -73,6 +74,10 @@ afterNavigate((params) => {
         <AppRailAnchor href="/about" name="About" value={1} title="About">
           <p class="text-left pl-6 text-base font-medium">About</p>
         </AppRailAnchor>
+          <div class="pl-6 text-left">
+            <div class="font-sans text-xs mt-4 mb-1">Set color theme</div>
+            <LightSwitch />
+          </div>
         <!-- <AppRailAnchor href="/news-club" name="News Club" value={1} title="News Club">
           <p class="text-left pl-6 text-base font-medium">News Club</p>
         </AppRailAnchor> -->
@@ -89,8 +94,8 @@ afterNavigate((params) => {
     </AppRail>
   </svelte:fragment>
 
-  <div class="mx-auto max-w-screen-sm overflow-y-scroll prose dark:prose-invert prose-headings:mb-2 prose-p:text-lg prose-p:leading-8">
-  <div class="p-4">
+  <div class="mx-auto max-w-screen-sm overflow-y-scroll prose-headings:mb-2 prose-p:text-lg prose-p:leading-8">
+    <div class="p-4">
       <slot />
     </div>
   </div>

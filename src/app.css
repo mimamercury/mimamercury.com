@@ -18,5 +18,10 @@ html, body {
 }
 
 .prose img {
+    border: 2px solid #efefef;
+    @apply mx-auto;
+}
+
+.dark .prose img {
     border: 2px solid white;
 }

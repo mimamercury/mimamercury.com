@@ -1,6 +1,6 @@
 <script>
 import format from 'date-fns/format/index.js'
-import { format_percentage, format_number, round_decimal } from '@editorialapp/datatools/numbers'
+import { format_number, round_decimal } from '@editorialapp/datatools/numbers'
 import HorizontalBar from '$components/graphs/HorizontalBar.svelte';
 
 export let data;
@@ -12,45 +12,61 @@ const formatted_time = format(new Date(overview.date), 'h:mm a')
 </script>
 
 <h1 class="not-prose text-center font-bold text-3xl mb-1">2023 Thurston County Elections</h1>
-<p class="italic text-center not-prose mt-0 text-sm text-surface-300">Unofficial results as of {formatted_date} at {formatted_time}</p>
+<p class="italic text-center not-prose mt-0 text-sm">Unofficial results as of {formatted_date} at {formatted_time}</p>
 <div class="grid grid-flow-col justify-center gap-12 mt-12">
     <div class="">
-        <p class="text-center text-surface-200 italic not-prose mb-0">Total Ballots Cast</p>
-        <span class="font-bold text-3xl lg:text-8xl mt-0 text-secondary-500">{format_number(overview.total_ballots)}</span>
+        <p class="text-center italic not-prose mb-0">Total Ballots Cast</p>
+        <span class="font-bold text-3xl lg:text-8xl mt-0 text-primary-500 dark:text-secondary-500">{format_number(overview.total_ballots)}</span>
     </div>
 
     <div class="">
-        <p class="text-center text-surface-200 italic not-prose mb-0">Total <b>Blank</b> Ballots</p>
+        <p class="text-center italic not-prose mb-0">Total <b>Blank</b> Ballots</p>
         <div class="grid grid-flow-col">
-            <span class="font-bold text-3xl lg:text-8xl mt-0 text-secondary-500">{overview.total_blank_ballots}</span>
-            <span class="text-3xl lg:text-8xl not-prose text-surface-600"> (</span>
-            <span class="text-xs italic text-surface-300 text-md lg:mt-7">why have <br>you people <br>done this?</span>
-            <span class="text-3xl lg:text-8xl not-prose text-surface-600">)</span>
+            <span class="font-bold text-3xl lg:text-8xl mt-0 text-primary-500 dark:text-secondary-500">{overview.total_blank_ballots}</span>
+            <span class="text-3xl lg:text-8xl text-gray-300 dark:text-gray-800"> (</span>
+            <span class="text-xs italic text-md lg:mt-7">why have <br>you people <br>done this?</span>
+            <span class="text-3xl lg:text-8xl text-gray-300 dark:text-gray-800">)</span>
         </div>
     </div>
 </div>
 
-<hr class="divider w-72 mx-auto border-bottom-surface-100">
+<hr class="divider w-72 mx-auto border-surface-200 dark:border-surface-700 my-12">
 <h3 class="mb-4 font-bold text-2xl center">Recent Elections posts</h3>
 
 {#each data.elections_2023_posts as post}
 <p class="not-prose p-0 mb-3 font-sans">
-  <a href="/posts/{post.slug}/" class="not-prose font-sans border-l-4 border-surface-800 pl-3 block py-1 hover:underline hover:border-surface-600">
+  <a
+    href="/posts/{post.slug}/"
+    class="
+            not-prose
+            font-sans
+            border-l-4
+            border-surface-100
+            dark:border-surface-800
+            pl-3
+            block
+            py-1
+            hover:underline
+            hover:border-surface-400
+            dark:hover:border-surface-500
+        "
+    >
     {post.title}
   </a>
 </p>
 {/each}
 
-<hr class="divider w-72 mx-auto border-bottom-surface-100">
+<hr class="divider w-72 mx-auto border-surface-200 dark:border-surface-700 my-12">
 
 {#each propositions as proposition}
-<h2>{proposition.title}</h2>
+<h2 class="not-prose font-extrabold text-xl lg:text-3xl">{proposition.title}</h2>
+
 <p>{proposition.metadata.description}.</p>
-<div class="grid grid-flow-col mb-5">
+<div class="grid grid-flow-col my-5">
     {#each proposition.candidates as candidate}
     <div class="font-sans">
-        <span class="font-bold serif">{candidate.name}</span> <br>
-        <span class="text-secondary-500 font-sans font-bold text-3xl">
+        <span class="font-bold serif ">{candidate.name}</span> <br>
+        <span class="font-sans font-bold text-3xl text-primary-500 dark:text-secondary-500">
             {round_decimal(candidate.percentage, 1)}%
         </span>
         <span class="not-prose font-sans text-sm">
@@ -68,7 +84,7 @@ const formatted_time = format(new Date(overview.date), 'h:mm a')
 })} />
 {/each}
 
-<hr class="divider w-72 mx-auto border-bottom-surface-100 my-12">
+<hr class="divider w-72 mx-auto border-surface-200 dark:border-surface-700 my-12">
 
 {#each offices as office}
 <p class="not-prose mt-8 mb-0">{office.metadata.location?.name}</p>
@@ -84,7 +100,7 @@ const formatted_time = format(new Date(overview.date), 'h:mm a')
     {#each office.candidates as candidate}
     <div class="font-sans">
         <span class="font-bold serif">{candidate.name === 'WRITE-IN' ? 'Write-ins' : candidate.name}</span> <br>
-        <span class="text-secondary-500 font-sans font-bold text-3xl">
+        <span class="text-primary-500 dark:text-secondary-500 font-sans font-bold text-3xl">
             {round_decimal(candidate.percentage, 1)}%
         </span>
         <span class="not-prose font-sans text-sm">
@@ -126,5 +142,5 @@ const formatted_time = format(new Date(overview.date), 'h:mm a')
 />
 {/if}
 
-<hr class="divider w-72 mx-auto border-bottom-surface-100 my-12">
+<hr class="divider w-72 mx-auto border-surface-200 dark:border-surface-700 my-12">
 {/each}
