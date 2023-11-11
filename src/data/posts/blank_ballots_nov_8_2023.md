@@ -4,8 +4,8 @@ promoted: true
 slug: blank_ballots_nov_8_2023
 author: Seth Vincent
 author_slug: sethvincent
-created: 1699481697
-updated: 1699481697
+created: "11/08/2023, 5:00:00 PM"
+updated: "11/08/2023, 5:00:00 PM"
 topics: ['elections', 'elections_2023']
 ---
 

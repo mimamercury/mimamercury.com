@@ -31,16 +31,15 @@ const formatted_time = format(new Date(overview.date), 'h:mm a')
 </div>
 
 <hr class="divider w-72 mx-auto border-bottom-surface-100">
-<p class="mb-4 font-bold text-2xl center">Recent Elections posts</p>
+<h3 class="mb-4 font-bold text-2xl center">Recent Elections posts</h3>
 
 {#each data.elections_2023_posts as post}
-<p>
-  <a href="/posts/{post.slug}/">
+<p class="not-prose p-0 mb-3 font-sans">
+  <a href="/posts/{post.slug}/" class="not-prose font-sans border-l-4 border-surface-800 pl-3 block py-1 hover:underline hover:border-surface-600">
     {post.title}
   </a>
 </p>
 {/each}
-
 
 <hr class="divider w-72 mx-auto border-bottom-surface-100">
 
