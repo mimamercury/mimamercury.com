@@ -1,5 +1,5 @@
 <script>
-import format from 'date-fns/format'
+import format from 'date-fns/format/index.js'
 import { format_percentage, format_number, round_decimal } from '@editorialapp/datatools/numbers'
 import HorizontalBar from '$components/graphs/HorizontalBar.svelte';
 

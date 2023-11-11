@@ -1,5 +1,5 @@
 <script>
-import format from 'date-fns/format'
+import format from 'date-fns/format/index.js'
 import Newsletter from '$components/Newsletter.svelte'
 export let data
 
