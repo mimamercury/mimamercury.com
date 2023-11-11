@@ -80,7 +80,6 @@ function textAnchor(i) {
 <style>
 .tick {
     font-size: 0.6em;
-    font-weight: 200;
 }
 
 line,
@@ -90,7 +89,7 @@ line,
 }
 
 .tick text {
-    fill: #eee;
+    fill: #fff;
 }
 
 .tick .tick-mark,

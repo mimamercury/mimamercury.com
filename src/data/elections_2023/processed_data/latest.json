@@ -1,0 +1,2515 @@
+{
+  "overview": {
+    "total_ballots": 61916,
+    "estimated_remaining_ballots": 11000,
+    "total_blank_ballots": 17,
+    "registered_voters": 196717,
+    "date": "11/09/2023, 4:48:00 PM"
+  },
+  "propositions": [
+    {
+      "title": "Proposition No. 1",
+      "candidates": [
+        {
+          "name": "Approved",
+          "party": 0,
+          "votes": 33148,
+          "percentage": 56.9328,
+          "jurisdiction": "County"
+        },
+        {
+          "name": "Rejected",
+          "party": 0,
+          "votes": 25075,
+          "percentage": 43.0672,
+          "jurisdiction": "County"
+        }
+      ],
+      "metadata": {
+        "title": "Proposition No. 1",
+        "votewa_title": "Thurston Proposition No. 1 Sales and Use Tax for Law Enforcement Protection, Corresponding Prosecution and Public Defense Services, and Elections Security",
+        "description": "Sales and use tax for law enforcement protection, corresponding prosecution and public defense services, and elections security.",
+        "location": {
+          "name": "Thurston County",
+          "type": "County"
+        },
+        "type": "proposition"
+      }
+    }
+  ],
+  "offices": [
+    {
+      "title": "Thurston County County Commissioner, District No. 4",
+      "candidates": [
+        {
+          "name": "Wayne Fournier",
+          "party": null,
+          "votes": 29759,
+          "percentage": 50.4775,
+          "jurisdiction": "Commissioner"
+        },
+        {
+          "name": "Vivian Eason",
+          "party": null,
+          "votes": 29006,
+          "percentage": 49.2002,
+          "jurisdiction": "Commissioner"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 190,
+          "percentage": 0.3223,
+          "jurisdiction": "Commissioner"
+        }
+      ],
+      "metadata": {
+        "title": "Thurston County County Commissioner, District No. 4",
+        "votewa_title": "COMMISSIONER DISTRICT ALL COUNTY Commissioner, District No. 4",
+        "description": "One year unexpired term",
+        "location": {
+          "name": "Thurston County",
+          "type": "County"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Thurston County County Commissioner, District No. 5",
+      "candidates": [
+        {
+          "name": "Emily Clouse",
+          "party": null,
+          "votes": 35763,
+          "percentage": 60.4166,
+          "jurisdiction": "Commissioner"
+        },
+        {
+          "name": "Terry S. Ballard",
+          "party": null,
+          "votes": 23253,
+          "percentage": 39.2827,
+          "jurisdiction": "Commissioner"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 178,
+          "percentage": 0.3007,
+          "jurisdiction": "Commissioner"
+        }
+      ],
+      "metadata": {
+        "title": "Thurston County County Commissioner, District No. 5",
+        "votewa_title": "COMMISSIONER DISTRICT ALL COUNTY Commissioner, District No. 5",
+        "description": "Three year unexpired term",
+        "location": {
+          "name": "Thurston County",
+          "type": "County"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Port of Olympia Port Commissioner, District No. 1",
+      "candidates": [
+        {
+          "name": "Jasmine Vasavada",
+          "party": 0,
+          "votes": 30037,
+          "percentage": 51.9518,
+          "jurisdiction": "Port"
+        },
+        {
+          "name": "Bill McGregor",
+          "party": 0,
+          "votes": 27570,
+          "percentage": 47.6849,
+          "jurisdiction": "Port"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 210,
+          "percentage": 0.3632,
+          "jurisdiction": "Port"
+        }
+      ],
+      "metadata": {
+        "title": "Port of Olympia Port Commissioner, District No. 1",
+        "votewa_title": "PORT OF OLYMPIA Port Commissioner, District No. 1",
+        "description": "Four year term",
+        "location": {
+          "name": "Port of Olympia",
+          "type": "Port"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Port of Olympia Port Commissioner, District No. 4",
+      "candidates": [
+        {
+          "name": "Maggie Sanders",
+          "party": 0,
+          "votes": 28828,
+          "percentage": 50.3625,
+          "jurisdiction": "Port"
+        },
+        {
+          "name": "Rose Chiu Gundersen",
+          "party": 0,
+          "votes": 28140,
+          "percentage": 49.1606,
+          "jurisdiction": "Port"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 273,
+          "percentage": 0.4769,
+          "jurisdiction": "Port"
+        }
+      ],
+      "metadata": {
+        "title": "Port of Olympia Port Commissioner, District No. 4",
+        "votewa_title": "PORT OF OLYMPIA Port Commissioner, District No. 4",
+        "description": "Two or four year term",
+        "location": {
+          "name": "Port of Olympia",
+          "type": "Port"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Port of Olympia Port Commissioner, District No. 5",
+      "candidates": [
+        {
+          "name": "Sarah Tonge",
+          "party": 0,
+          "votes": 30314,
+          "percentage": 53.1881,
+          "jurisdiction": "Port"
+        },
+        {
+          "name": "Troy Kirby",
+          "party": 0,
+          "votes": 26458,
+          "percentage": 46.4224,
+          "jurisdiction": "Port"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 222,
+          "percentage": 0.3895,
+          "jurisdiction": "Port"
+        }
+      ],
+      "metadata": {
+        "title": "Port of Olympia Port Commissioner, District No. 5",
+        "votewa_title": "PORT OF OLYMPIA Port Commissioner, District No. 5",
+        "description": "Two or four year term",
+        "location": {
+          "name": "Port of Olympia",
+          "type": "Port"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Bucoda Mayor",
+      "candidates": [
+        {
+          "name": "Robert F. Gordon",
+          "party": 0,
+          "votes": 74,
+          "percentage": 100,
+          "jurisdiction": "City/Town"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 0,
+          "percentage": 0,
+          "jurisdiction": "City/Town"
+        }
+      ],
+      "metadata": {
+        "title": "Bucoda Mayor",
+        "votewa_title": "Town of Bucoda Mayor",
+        "description": "Two year unexpired term",
+        "location": {
+          "name": "Bucoda",
+          "type": "City"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Bucoda Town Council Position No. 1",
+      "candidates": [
+        {
+          "name": "Callie Carpenter",
+          "party": 0,
+          "votes": 65,
+          "percentage": 98.4848,
+          "jurisdiction": "City/Town"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 1,
+          "percentage": 1.5152,
+          "jurisdiction": "City/Town"
+        }
+      ],
+      "metadata": {
+        "title": "Bucoda Town Council Position No. 1",
+        "votewa_title": "Town of Bucoda Town Council, Position No. 1",
+        "description": "Short + four year term",
+        "location": {
+          "name": "Bucoda",
+          "type": "City"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Bucoda Town Council Position No. 2",
+      "candidates": [
+        {
+          "name": "Steven Lyle",
+          "party": 0,
+          "votes": 65,
+          "percentage": 98.4848,
+          "jurisdiction": "City/Town"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 1,
+          "percentage": 1.5152,
+          "jurisdiction": "City/Town"
+        }
+      ],
+      "metadata": {
+        "title": "Bucoda Town Council Position No. 2",
+        "votewa_title": "Town of Bucoda Town Council, Position No. 2",
+        "description": "Four year term",
+        "location": {
+          "name": "Bucoda",
+          "type": "City"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Bucoda Town Council Position No. 4",
+      "candidates": [
+        {
+          "name": "Michelle Layton",
+          "party": 0,
+          "votes": 66,
+          "percentage": 100,
+          "jurisdiction": "City/Town"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 0,
+          "percentage": 0,
+          "jurisdiction": "City/Town"
+        }
+      ],
+      "metadata": {
+        "title": "Bucoda Town Council Position No. 4",
+        "votewa_title": "Town of Bucoda Town Council, Position No. 4",
+        "description": "Four year term",
+        "location": {
+          "name": "Bucoda",
+          "type": "City"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Bucoda Town Council Position No. 5",
+      "candidates": [
+        {
+          "name": "Kiersten Presley",
+          "party": 0,
+          "votes": 67,
+          "percentage": 98.5294,
+          "jurisdiction": "City/Town"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 1,
+          "percentage": 1.4706,
+          "jurisdiction": "City/Town"
+        }
+      ],
+      "metadata": {
+        "title": "Bucoda Town Council Position No. 5",
+        "votewa_title": "Town of Bucoda Town Council, Position No. 5",
+        "description": "Two year unexpired term",
+        "location": {
+          "name": "Bucoda",
+          "type": "City"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Lacey City Council Position No. 1",
+      "candidates": [
+        {
+          "name": "Malcolm Miller",
+          "party": 0,
+          "votes": 8109,
+          "percentage": 97.5225,
+          "jurisdiction": "City/Town"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 206,
+          "percentage": 2.4775,
+          "jurisdiction": "City/Town"
+        }
+      ],
+      "metadata": {
+        "title": "Lacey City Council Position No. 1",
+        "votewa_title": "CITY OF LACEY City Council, Position No. 1",
+        "description": "Four year term",
+        "location": {
+          "name": "Lacey",
+          "type": "City"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Lacey City Council Position No. 2",
+      "candidates": [
+        {
+          "name": "Lenny Greenstein",
+          "party": 0,
+          "votes": 5494,
+          "percentage": 56.3892,
+          "jurisdiction": "City/Town"
+        },
+        {
+          "name": "Spencer Zeman",
+          "party": 0,
+          "votes": 4202,
+          "percentage": 43.1284,
+          "jurisdiction": "City/Town"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 47,
+          "percentage": 0.4824,
+          "jurisdiction": "City/Town"
+        }
+      ],
+      "metadata": {
+        "title": "Lacey City Council Position No. 2",
+        "votewa_title": "CITY OF LACEY City Council, Position No. 2",
+        "description": "Four year term",
+        "location": {
+          "name": "Lacey",
+          "type": "City"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Lacey City Council Position No. 3",
+      "candidates": [
+        {
+          "name": "Nicolas Dunning",
+          "party": 0,
+          "votes": 6123,
+          "percentage": 63.5694,
+          "jurisdiction": "City/Town"
+        },
+        {
+          "name": "Ed Kunkel",
+          "party": 0,
+          "votes": 3431,
+          "percentage": 35.6208,
+          "jurisdiction": "City/Town"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 78,
+          "percentage": 0.8098,
+          "jurisdiction": "City/Town"
+        }
+      ],
+      "metadata": {
+        "title": "Lacey City Council Position No. 3",
+        "votewa_title": "CITY OF LACEY City Council, Position No.  3",
+        "description": "Four year term",
+        "location": {
+          "name": "Lacey",
+          "type": "City"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Olympia Mayor",
+      "candidates": [
+        {
+          "name": "Dontae Payne",
+          "party": 0,
+          "votes": 9649,
+          "percentage": 69.6578,
+          "jurisdiction": "City/Town"
+        },
+        {
+          "name": "David Ross",
+          "party": 0,
+          "votes": 4143,
+          "percentage": 29.909,
+          "jurisdiction": "City/Town"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 60,
+          "percentage": 0.4332,
+          "jurisdiction": "City/Town"
+        }
+      ],
+      "metadata": {
+        "title": "Olympia Mayor",
+        "votewa_title": "City of Olympia Mayor",
+        "description": "Four year term",
+        "location": {
+          "name": "Olympia",
+          "type": "City"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Olympia City Council Position No. 2",
+      "candidates": [
+        {
+          "name": "Yen Huynh",
+          "party": 0,
+          "votes": 10202,
+          "percentage": 96.3635,
+          "jurisdiction": "City/Town"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 385,
+          "percentage": 3.6365,
+          "jurisdiction": "City/Town"
+        }
+      ],
+      "metadata": {
+        "title": "Olympia City Council Position No. 2",
+        "votewa_title": "City of Olympia City Council, Position No. 2",
+        "description": "Four year term",
+        "location": {
+          "name": "Olympia",
+          "type": "City"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Olympia City Council Position No. 3",
+      "candidates": [
+        {
+          "name": "Dani Madrone",
+          "party": 0,
+          "votes": 10230,
+          "percentage": 96.4367,
+          "jurisdiction": "City/Town"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 378,
+          "percentage": 3.5633,
+          "jurisdiction": "City/Town"
+        }
+      ],
+      "metadata": {
+        "title": "Olympia City Council Position No. 3",
+        "votewa_title": "City of Olympia City Council, Position No. 3",
+        "description": "Four year term",
+        "location": {
+          "name": "Olympia",
+          "type": "City"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Rainier City Council Position No. 2",
+      "candidates": [
+        {
+          "name": "Damion Green",
+          "party": 0,
+          "votes": 223,
+          "percentage": 50.5669,
+          "jurisdiction": "City/Town"
+        },
+        {
+          "name": "Ryan Roth",
+          "party": 0,
+          "votes": 213,
+          "percentage": 48.2993,
+          "jurisdiction": "City/Town"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 5,
+          "percentage": 1.1338,
+          "jurisdiction": "City/Town"
+        }
+      ],
+      "metadata": {
+        "title": "Rainier City Council Position No. 2",
+        "votewa_title": "City of Rainier City Council, Position No. 2",
+        "description": "Four year term",
+        "location": {
+          "name": "Rainier",
+          "type": "City"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Rainier City Council Position No. 4",
+      "candidates": [
+        {
+          "name": "Ron Kemp",
+          "party": 0,
+          "votes": 324,
+          "percentage": 95.858,
+          "jurisdiction": "City/Town"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 14,
+          "percentage": 4.142,
+          "jurisdiction": "City/Town"
+        }
+      ],
+      "metadata": {
+        "title": "Rainier City Council Position No. 4",
+        "votewa_title": "City of Rainier City Council, Position No. 4",
+        "description": "Four year term",
+        "location": {
+          "name": "Rainier",
+          "type": "City"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Tenino Mayor",
+      "candidates": [
+        {
+          "name": "David Watterson",
+          "party": 0,
+          "votes": 219,
+          "percentage": 52.3923,
+          "jurisdiction": "City/Town"
+        },
+        {
+          "name": "Linda Gotovac",
+          "party": 0,
+          "votes": 198,
+          "percentage": 47.3684,
+          "jurisdiction": "City/Town"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 1,
+          "percentage": 0.2392,
+          "jurisdiction": "City/Town"
+        }
+      ],
+      "metadata": {
+        "title": "Tenino Mayor",
+        "votewa_title": "City of Tenino Mayor",
+        "description": "Four year term",
+        "location": {
+          "name": "Tenino",
+          "type": "City"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Tenino City Council Position No. 2",
+      "candidates": [
+        {
+          "name": "Elaine Klamn",
+          "party": 0,
+          "votes": 312,
+          "percentage": 97.5,
+          "jurisdiction": "City/Town"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 8,
+          "percentage": 2.5,
+          "jurisdiction": "City/Town"
+        }
+      ],
+      "metadata": {
+        "title": "Tenino City Council Position No. 2",
+        "votewa_title": "City of Tenino City Council, Position No. 2",
+        "description": "Four year term",
+        "location": {
+          "name": "Tenino",
+          "type": "City"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Tenino City Council Position No. 5",
+      "candidates": [
+        {
+          "name": "Jeff Eisel",
+          "party": 0,
+          "votes": 306,
+          "percentage": 97.4522,
+          "jurisdiction": "City/Town"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 8,
+          "percentage": 2.5478,
+          "jurisdiction": "City/Town"
+        }
+      ],
+      "metadata": {
+        "title": "Tenino City Council Position No. 5",
+        "votewa_title": "City of Tenino City Council, Position No. 5",
+        "description": "Four year term",
+        "location": {
+          "name": "Tenino",
+          "type": "City"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Tumwater City Council Position No. 1",
+      "candidates": [
+        {
+          "name": "Leatta Dahlhoff",
+          "party": 0,
+          "votes": 3937,
+          "percentage": 97.5954,
+          "jurisdiction": "City/Town"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 97,
+          "percentage": 2.4046,
+          "jurisdiction": "City/Town"
+        }
+      ],
+      "metadata": {
+        "title": "Tumwater City Council Position No. 1",
+        "votewa_title": "City of Tumwater City Council, Position No. 1",
+        "description": "Four year term",
+        "location": {
+          "name": "Tumwater",
+          "type": "City"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Tumwater City Council Position No. 2",
+      "candidates": [
+        {
+          "name": "Angela Jefferson",
+          "party": 0,
+          "votes": 4026,
+          "percentage": 98.0755,
+          "jurisdiction": "City/Town"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 79,
+          "percentage": 1.9245,
+          "jurisdiction": "City/Town"
+        }
+      ],
+      "metadata": {
+        "title": "Tumwater City Council Position No. 2",
+        "votewa_title": "City of Tumwater City Council, Position No. 2",
+        "description": "Four year term",
+        "location": {
+          "name": "Tumwater",
+          "type": "City"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Tumwater City Council Position No. 3",
+      "candidates": [
+        {
+          "name": "Joan Cathey",
+          "party": 0,
+          "votes": 4060,
+          "percentage": 83.0606,
+          "jurisdiction": "City/Town"
+        },
+        {
+          "name": "Doris Atkinson",
+          "party": 0,
+          "votes": 771,
+          "percentage": 15.7733,
+          "jurisdiction": "City/Town"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 57,
+          "percentage": 1.1661,
+          "jurisdiction": "City/Town"
+        }
+      ],
+      "metadata": {
+        "title": "Tumwater City Council Position No. 3",
+        "votewa_title": "City of Tumwater City Council, Position No. 3",
+        "description": "Four year term",
+        "location": {
+          "name": "Tumwater",
+          "type": "City"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Tumwater City Council Position No. 7",
+      "candidates": [
+        {
+          "name": "Kelly Von Holtz",
+          "party": 0,
+          "votes": 2693,
+          "percentage": 51.8184,
+          "jurisdiction": "City/Town"
+        },
+        {
+          "name": "Andrea McGhee",
+          "party": 0,
+          "votes": 2484,
+          "percentage": 47.7968,
+          "jurisdiction": "City/Town"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 20,
+          "percentage": 0.3848,
+          "jurisdiction": "City/Town"
+        }
+      ],
+      "metadata": {
+        "title": "Tumwater City Council Position No. 7",
+        "votewa_title": "City of Tumwater City Council, Position No. 7",
+        "description": "Four year term",
+        "location": {
+          "name": "Tumwater",
+          "type": "City"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Yelm City Council Position No. 1",
+      "candidates": [
+        {
+          "name": "Tracey Wood",
+          "party": 0,
+          "votes": 495,
+          "percentage": 49.7988,
+          "jurisdiction": "City/Town"
+        },
+        {
+          "name": "Stephanie Kangiser",
+          "party": 0,
+          "votes": 494,
+          "percentage": 49.6982,
+          "jurisdiction": "City/Town"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 5,
+          "percentage": 0.503,
+          "jurisdiction": "City/Town"
+        }
+      ],
+      "metadata": {
+        "title": "Yelm City Council Position No. 1",
+        "votewa_title": "CITY OF YELM City Council, Position No. 1",
+        "description": "Four year term",
+        "location": {
+          "name": "Yelm",
+          "type": "City"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Yelm City Council Position No. 2",
+      "candidates": [
+        {
+          "name": "Joseph Dale Richardson",
+          "party": 0,
+          "votes": 517,
+          "percentage": 52.3279,
+          "jurisdiction": "City/Town"
+        },
+        {
+          "name": "Jerry Toompas",
+          "party": 0,
+          "votes": 464,
+          "percentage": 46.9636,
+          "jurisdiction": "City/Town"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 7,
+          "percentage": 0.7085,
+          "jurisdiction": "City/Town"
+        }
+      ],
+      "metadata": {
+        "title": "Yelm City Council Position No. 2",
+        "votewa_title": "CITY OF YELM City Council, Position No. 2",
+        "description": "Short + four year term",
+        "location": {
+          "name": "Yelm",
+          "type": "City"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Yelm City Council Position No. 6",
+      "candidates": [
+        {
+          "name": "Ashley Lea Brooks",
+          "party": 0,
+          "votes": 495,
+          "percentage": 49.8489,
+          "jurisdiction": "City/Town"
+        },
+        {
+          "name": "Trevor Palmer",
+          "party": 0,
+          "votes": 493,
+          "percentage": 49.6475,
+          "jurisdiction": "City/Town"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 5,
+          "percentage": 0.5035,
+          "jurisdiction": "City/Town"
+        }
+      ],
+      "metadata": {
+        "title": "Yelm City Council Position No. 6",
+        "votewa_title": "CITY OF YELM City Council, Position No. 6",
+        "description": "Short + four year term",
+        "location": {
+          "name": "Yelm",
+          "type": "City"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Centralia School District No. 401-L School Board Director, Position No. 2",
+      "candidates": [
+        {
+          "name": "Maritza Bravo",
+          "party": 0,
+          "votes": 52,
+          "percentage": 96.2963,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 2,
+          "percentage": 3.7037,
+          "jurisdiction": "School"
+        }
+      ],
+      "metadata": {
+        "title": "Centralia School District No. 401-L School Board Director, Position No. 2",
+        "votewa_title": "CENTRALIA SCHOOL DISTRICT NO. 401 Director Position 2",
+        "description": "Four year term",
+        "location": {
+          "name": "Centralia School District No. 401-L"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Centralia School District No. 401-L School Board Director, Position No. 3",
+      "candidates": [
+        {
+          "name": "Andrea Ware",
+          "party": 0,
+          "votes": 49,
+          "percentage": 96.0784,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 2,
+          "percentage": 3.9216,
+          "jurisdiction": "School"
+        }
+      ],
+      "metadata": {
+        "title": "Centralia School District No. 401-L School Board Director, Position No. 3",
+        "votewa_title": "CENTRALIA SCHOOL DISTRICT NO. 401 Director Position 3",
+        "description": "Four year term",
+        "location": {
+          "name": "Centralia School District No. 401-L"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Centralia School District No. 401-L School Board Director, Position No. 4",
+      "candidates": [
+        {
+          "name": "Sarah Holmes",
+          "party": 0,
+          "votes": 49,
+          "percentage": 69.0141,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "Mandi McDougall",
+          "party": 0,
+          "votes": 22,
+          "percentage": 30.9859,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 0,
+          "percentage": 0,
+          "jurisdiction": "School"
+        }
+      ],
+      "metadata": {
+        "title": "Centralia School District No. 401-L School Board Director, Position No. 4",
+        "votewa_title": "CENTRALIA SCHOOL DISTRICT NO. 401 Director Position 4",
+        "description": "Four year term",
+        "location": {
+          "name": "Centralia School District No. 401-L"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Griffin School District No. 324 School Board Director, Position No. 1",
+      "candidates": [
+        {
+          "name": "Tesa Frevert",
+          "party": 0,
+          "votes": 1017,
+          "percentage": 53.6959,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "Matt Dorcy",
+          "party": 0,
+          "votes": 870,
+          "percentage": 45.9345,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 7,
+          "percentage": 0.3696,
+          "jurisdiction": "School"
+        }
+      ],
+      "metadata": {
+        "title": "Griffin School District No. 324 School Board Director, Position No. 1",
+        "votewa_title": "Griffin School District No. 324 School Board Director, Position No. 1",
+        "description": "Four year term",
+        "location": {
+          "name": "Griffin School District No. 324"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Griffin School District No. 324 School Board Director, Position No. 2",
+      "candidates": [
+        {
+          "name": "Emma Rose",
+          "party": 0,
+          "votes": 1386,
+          "percentage": 96.9909,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 43,
+          "percentage": 3.0091,
+          "jurisdiction": "School"
+        }
+      ],
+      "metadata": {
+        "title": "Griffin School District No. 324 School Board Director, Position No. 2",
+        "votewa_title": "Griffin School District No. 324 School Board Director, Position No. 2",
+        "description": "Four year term",
+        "location": {
+          "name": "Griffin School District No. 324"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Griffin School District No. 324 School Board Director, Position No. 3",
+      "candidates": [
+        {
+          "name": "Blair Baker",
+          "party": 0,
+          "votes": 1021,
+          "percentage": 58.0114,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "David Kangiser",
+          "party": 0,
+          "votes": 722,
+          "percentage": 41.0227,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 17,
+          "percentage": 0.9659,
+          "jurisdiction": "School"
+        }
+      ],
+      "metadata": {
+        "title": "Griffin School District No. 324 School Board Director, Position No. 3",
+        "votewa_title": "Griffin School District No. 324 School Board Director, Position No. 3",
+        "description": "Four year term",
+        "location": {
+          "name": "Griffin School District No. 324"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "North Thurston Public Schools School Board Director, District No. 1",
+      "candidates": [
+        {
+          "name": "Gretchen Maliska",
+          "party": 0,
+          "votes": 10072,
+          "percentage": 52.6585,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "Veronica Shriver",
+          "party": 0,
+          "votes": 8964,
+          "percentage": 46.8657,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 91,
+          "percentage": 0.4758,
+          "jurisdiction": "School"
+        }
+      ],
+      "metadata": {
+        "title": "North Thurston Public Schools School Board Director, District No. 1",
+        "votewa_title": "NORTH THURSTON PUBLIC SCHOOLS School Board Director, District No. 1",
+        "description": "Four year term",
+        "location": {
+          "name": "North Thurston Public Schools"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "North Thurston Public Schools School Board Director, District No. 4",
+      "candidates": [
+        {
+          "name": "Esperanza A. Badillo-Diiorio",
+          "party": 0,
+          "votes": 9958,
+          "percentage": 52.5516,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "Stephanie Scott",
+          "party": 0,
+          "votes": 8862,
+          "percentage": 46.7676,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 129,
+          "percentage": 0.6808,
+          "jurisdiction": "School"
+        }
+      ],
+      "metadata": {
+        "title": "North Thurston Public Schools School Board Director, District No. 4",
+        "votewa_title": "NORTH THURSTON PUBLIC SCHOOLS School Board Director, District No. 4",
+        "description": "Four year term",
+        "location": {
+          "name": "North Thurston Public Schools"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "North Thurston Public Schools School Board Director, District No. 5",
+      "candidates": [
+        {
+          "name": "Michelle J. Gipson",
+          "party": 0,
+          "votes": 9768,
+          "percentage": 50.8697,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "David G. Newkirk",
+          "party": 0,
+          "votes": 9353,
+          "percentage": 48.7085,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 81,
+          "percentage": 0.4218,
+          "jurisdiction": "School"
+        }
+      ],
+      "metadata": {
+        "title": "North Thurston Public Schools School Board Director, District No. 5",
+        "votewa_title": "NORTH THURSTON PUBLIC SCHOOLS School Board Director, District No. 5",
+        "description": "Four year term",
+        "location": {
+          "name": "North Thurston Public Schools"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Olympia School District No. 111 School Board Director, District No. 1",
+      "candidates": [
+        {
+          "name": "Maria R. Flores",
+          "party": 0,
+          "votes": 11095,
+          "percentage": 62.0214,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "Talauna Reed",
+          "party": 0,
+          "votes": 6130,
+          "percentage": 34.2669,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 664,
+          "percentage": 3.7118,
+          "jurisdiction": "School"
+        }
+      ],
+      "metadata": {
+        "title": "Olympia School District No. 111 School Board Director, District No. 1",
+        "votewa_title": "Olympia School District No. 111 School Board Director, District No. 1",
+        "description": "Four year term",
+        "location": {
+          "name": "Olympia School District No. 111"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Olympia School District No. 111 School Board Director, District No. 2",
+      "candidates": [
+        {
+          "name": "Jess Tourtellotte-Palumbo",
+          "party": 0,
+          "votes": 10636,
+          "percentage": 59.148,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "Frank Durocher",
+          "party": 0,
+          "votes": 7295,
+          "percentage": 40.5683,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 51,
+          "percentage": 0.2836,
+          "jurisdiction": "School"
+        }
+      ],
+      "metadata": {
+        "title": "Olympia School District No. 111 School Board Director, District No. 2",
+        "votewa_title": "Olympia School District No. 111 School Board Director, District No. 2",
+        "description": "Four year term",
+        "location": {
+          "name": "Olympia School District No. 111"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Olympia School District No. 111 School Board Director, District No. 4",
+      "candidates": [
+        {
+          "name": "Hilary Seidel",
+          "party": 0,
+          "votes": 10768,
+          "percentage": 60.4265,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "Leslie Van Leishout",
+          "party": 0,
+          "votes": 6955,
+          "percentage": 39.0292,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 97,
+          "percentage": 0.5443,
+          "jurisdiction": "School"
+        }
+      ],
+      "metadata": {
+        "title": "Olympia School District No. 111 School Board Director, District No. 4",
+        "votewa_title": "Olympia School District No. 111 School Board Director, District No. 4",
+        "description": "Four year term",
+        "location": {
+          "name": "Olympia School District No. 111"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Rainier School District No. 307 School Board Director, District No. 1",
+      "candidates": [
+        {
+          "name": "Amanda Siemandel",
+          "party": 0,
+          "votes": 569,
+          "percentage": 57.1859,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "Aaron Lang",
+          "party": 0,
+          "votes": 419,
+          "percentage": 42.1106,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 7,
+          "percentage": 0.7035,
+          "jurisdiction": "School"
+        }
+      ],
+      "metadata": {
+        "title": "Rainier School District No. 307 School Board Director, District No. 1",
+        "votewa_title": "RAINIER SCHOOL DISTRICT NO. 307 School Board Director, District No. 1",
+        "description": "Four year term",
+        "location": {
+          "name": "Rainier School District No. 307"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Rainier School District No. 307 School Board Director, District No. 2",
+      "candidates": [
+        {
+          "name": "Jerry F. Sprouffske",
+          "party": 0,
+          "votes": 570,
+          "percentage": 55.4475,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "Jon Palmer",
+          "party": 0,
+          "votes": 452,
+          "percentage": 43.9689,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 6,
+          "percentage": 0.5837,
+          "jurisdiction": "School"
+        }
+      ],
+      "metadata": {
+        "title": "Rainier School District No. 307 School Board Director, District No. 2",
+        "votewa_title": "RAINIER SCHOOL DISTRICT NO. 307 School Board Director, District No. 2",
+        "description": "Four year term",
+        "location": {
+          "name": "Rainier School District No. 307"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Rainier School District No. 307 School Board Director, District No. 3",
+      "candidates": [
+        {
+          "name": "Dana Morgan Spivey",
+          "party": 0,
+          "votes": 713,
+          "percentage": 69.8335,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "Brian Hackethal",
+          "party": 0,
+          "votes": 305,
+          "percentage": 29.8727,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 3,
+          "percentage": 0.2938,
+          "jurisdiction": "School"
+        }
+      ],
+      "metadata": {
+        "title": "Rainier School District No. 307 School Board Director, District No. 3",
+        "votewa_title": "RAINIER SCHOOL DISTRICT NO. 307 School Board Director, District No. 3",
+        "description": "Four year term",
+        "location": {
+          "name": "Rainier School District No. 307"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Rochester School District No. 401 School Board Director, District No. 2",
+      "candidates": [
+        {
+          "name": "Grant Rodeheaver",
+          "party": 0,
+          "votes": 1461,
+          "percentage": 62.356,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "Wava Garza",
+          "party": 0,
+          "votes": 866,
+          "percentage": 36.9612,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 16,
+          "percentage": 0.6829,
+          "jurisdiction": "School"
+        }
+      ],
+      "metadata": {
+        "title": "Rochester School District No. 401 School Board Director, District No. 2",
+        "votewa_title": "ROCHESTER SCHOOL DISTRICT NO. 401 School Board Director, District No. 2",
+        "description": "Four year term",
+        "location": {
+          "name": "Rochester School District No. 401"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Rochester School District No. 401 School Board Director, District No. 3",
+      "candidates": [
+        {
+          "name": "Susie Hawes",
+          "party": 0,
+          "votes": 1348,
+          "percentage": 57.3129,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "Penelope Mena",
+          "party": 0,
+          "votes": 986,
+          "percentage": 41.9218,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 18,
+          "percentage": 0.7653,
+          "jurisdiction": "School"
+        }
+      ],
+      "metadata": {
+        "title": "Rochester School District No. 401 School Board Director, District No. 3",
+        "votewa_title": "ROCHESTER SCHOOL DISTRICT NO. 401 School Board Director, District No. 3",
+        "description": "Four year term",
+        "location": {
+          "name": "Rochester School District No. 401"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Rochester School District No. 401 School Board Director, District No. 4",
+      "candidates": [
+        {
+          "name": "James Neil Turner",
+          "party": 0,
+          "votes": 1147,
+          "percentage": 49.7398,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "Michael L. Morrow",
+          "party": 0,
+          "votes": 1142,
+          "percentage": 49.523,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 17,
+          "percentage": 0.7372,
+          "jurisdiction": "School"
+        }
+      ],
+      "metadata": {
+        "title": "Rochester School District No. 401 School Board Director, District No. 4",
+        "votewa_title": "ROCHESTER SCHOOL DISTRICT NO. 401 School Board Director, District No. 4",
+        "description": "Four year term",
+        "location": {
+          "name": "Rochester School District No. 401"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Tenino School District No. 402 School Board Director, District No. 2",
+      "candidates": [
+        {
+          "name": "Jennifer Johnson",
+          "party": 0,
+          "votes": 1885,
+          "percentage": 84.1894,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "Ryan T. Hilton",
+          "party": 0,
+          "votes": 341,
+          "percentage": 15.23,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 13,
+          "percentage": 0.5806,
+          "jurisdiction": "School"
+        }
+      ],
+      "metadata": {
+        "title": "Tenino School District No. 402 School Board Director, District No. 2",
+        "votewa_title": "TENINO SCHOOL DISTRICT NO. 402 School Board Director, District No. 2",
+        "description": "Four year term",
+        "location": {
+          "name": "Tenino School District No. 402"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Tenino School District No. 402 School Board Director, District No. 3",
+      "candidates": [
+        {
+          "name": "Adam Barr",
+          "party": 0,
+          "votes": 1728,
+          "percentage": 96.2138,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 68,
+          "percentage": 3.7862,
+          "jurisdiction": "School"
+        }
+      ],
+      "metadata": {
+        "title": "Tenino School District No. 402 School Board Director, District No. 3",
+        "votewa_title": "TENINO SCHOOL DISTRICT NO. 402 School Board Director, District No. 3",
+        "description": "Four year term",
+        "location": {
+          "name": "Tenino School District No. 402"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Tenino School District No. 402 School Board Director, District No. 4",
+      "candidates": [
+        {
+          "name": "Jessica Reeves-Rush",
+          "party": 0,
+          "votes": 1836,
+          "percentage": 97.8157,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 41,
+          "percentage": 2.1843,
+          "jurisdiction": "School"
+        }
+      ],
+      "metadata": {
+        "title": "Tenino School District No. 402 School Board Director, District No. 4",
+        "votewa_title": "TENINO SCHOOL DISTRICT NO. 402 School Board Director, District No. 4",
+        "description": "Four year term",
+        "location": {
+          "name": "Tenino School District No. 402"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Tumwater School District No. 33 School Board Director, District No. 1",
+      "candidates": [
+        {
+          "name": "Jill Tokarczyk Adams",
+          "party": 0,
+          "votes": 5271,
+          "percentage": 62.7425,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "Jeff (Cowboy) Curry",
+          "party": 0,
+          "votes": 3084,
+          "percentage": 36.7099,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 46,
+          "percentage": 0.5476,
+          "jurisdiction": "School"
+        }
+      ],
+      "metadata": {
+        "title": "Tumwater School District No. 33 School Board Director, District No. 1",
+        "votewa_title": "Tumwater School District No. 033 School Board Director, District No. 1",
+        "description": "Two year unexpired term",
+        "location": {
+          "name": "Tumwater School District No. 33"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Tumwater School District No. 33 School Board Director, District No. 2",
+      "candidates": [
+        {
+          "name": "Casey Taylor",
+          "party": 0,
+          "votes": 6050,
+          "percentage": 92.3664,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 500,
+          "percentage": 7.6336,
+          "jurisdiction": "School"
+        }
+      ],
+      "metadata": {
+        "title": "Tumwater School District No. 33 School Board Director, District No. 2",
+        "votewa_title": "Tumwater School District No. 033 School Board Director, District No. 2",
+        "description": "Four year term",
+        "location": {
+          "name": "Tumwater School District No. 33"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Tumwater School District No. 33 School Board Director, District No. 3",
+      "candidates": [
+        {
+          "name": "Scott Killough",
+          "party": 0,
+          "votes": 6395,
+          "percentage": 97.9776,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 132,
+          "percentage": 2.0224,
+          "jurisdiction": "School"
+        }
+      ],
+      "metadata": {
+        "title": "Tumwater School District No. 33 School Board Director, District No. 3",
+        "votewa_title": "Tumwater School District No. 033 School Board Director, District No. 3",
+        "description": "Four year term",
+        "location": {
+          "name": "Tumwater School District No. 33"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Yelm Community Schools School Board Director, District No. 2",
+      "candidates": [
+        {
+          "name": "Casey Shaw",
+          "party": 0,
+          "votes": 2288,
+          "percentage": 58.3376,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "Eric Heid",
+          "party": 0,
+          "votes": 1582,
+          "percentage": 40.3366,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 52,
+          "percentage": 1.3259,
+          "jurisdiction": "School"
+        }
+      ],
+      "metadata": {
+        "title": "Yelm Community Schools School Board Director, District No. 2",
+        "votewa_title": "Yelm Community Schools School Board Director, District No. 2",
+        "description": "Four year term",
+        "location": {
+          "name": "Yelm Community Schools"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Yelm Community Schools School Board Director, District No. 3",
+      "candidates": [
+        {
+          "name": "Denise Hendrickson",
+          "party": 0,
+          "votes": 2360,
+          "percentage": 59.3711,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "Allyn Verbal",
+          "party": 0,
+          "votes": 1592,
+          "percentage": 40.0503,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 23,
+          "percentage": 0.5786,
+          "jurisdiction": "School"
+        }
+      ],
+      "metadata": {
+        "title": "Yelm Community Schools School Board Director, District No. 3",
+        "votewa_title": "Yelm Community Schools School Board Director, District No. 3",
+        "description": "Four year term",
+        "location": {
+          "name": "Yelm Community Schools"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Yelm Community Schools School Board Director, District No. 5",
+      "candidates": [
+        {
+          "name": "Bill Hauss",
+          "party": 0,
+          "votes": 2261,
+          "percentage": 56.6951,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "Karen (Kay) Anderson",
+          "party": 0,
+          "votes": 1703,
+          "percentage": 42.7031,
+          "jurisdiction": "School"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 24,
+          "percentage": 0.6018,
+          "jurisdiction": "School"
+        }
+      ],
+      "metadata": {
+        "title": "Yelm Community Schools School Board Director, District No. 5",
+        "votewa_title": "Yelm Community Schools School Board Director, District No. 5",
+        "description": "Four year term",
+        "location": {
+          "name": "Yelm Community Schools"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Fire District No. 3 Fire Commissioner, Position No. 3",
+      "candidates": [
+        {
+          "name": "Frank Kirkbride",
+          "party": 0,
+          "votes": 14481,
+          "percentage": 98.5706,
+          "jurisdiction": "Fire"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 210,
+          "percentage": 1.4294,
+          "jurisdiction": "Fire"
+        }
+      ],
+      "metadata": {
+        "title": "Fire District No. 3 Fire Commissioner, Position No. 3",
+        "votewa_title": "FIRE PROTECTION DISTRICT NO. 03 - LACEY Fire Commissioner, Position No. 3",
+        "description": "Six year term",
+        "location": {
+          "name": "Fire District No. 3",
+          "location": {
+            "name": "Lacey",
+            "type": "City"
+          }
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Fire District No. 3 Fire Commissioner, Position No. 4",
+      "candidates": [
+        {
+          "name": "Liberty Hetzler",
+          "party": 0,
+          "votes": 14217,
+          "percentage": 98.3059,
+          "jurisdiction": "Fire"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 245,
+          "percentage": 1.6941,
+          "jurisdiction": "Fire"
+        }
+      ],
+      "metadata": {
+        "title": "Fire District No. 3 Fire Commissioner, Position No. 4",
+        "votewa_title": "FIRE PROTECTION DISTRICT NO. 03 - LACEY Fire Commissioner, Position No. 4",
+        "description": "Six year term",
+        "location": {
+          "name": "Fire District No. 3",
+          "location": {
+            "name": "Lacey",
+            "type": "City"
+          }
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Fire District No. 6 Fire Commissioner, Position No. 3",
+      "candidates": [
+        {
+          "name": "Brandon Faust",
+          "party": 0,
+          "votes": 2264,
+          "percentage": 98.0511,
+          "jurisdiction": "Fire"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 45,
+          "percentage": 1.9489,
+          "jurisdiction": "Fire"
+        }
+      ],
+      "metadata": {
+        "title": "Fire District No. 6 Fire Commissioner, Position No. 3",
+        "votewa_title": "Fire Protection District No. 06 - East Olympia Fire Commissioner, Position No. 3",
+        "description": "Six year term",
+        "location": {
+          "name": "Fire District No. 6",
+          "location": {
+            "name": "Olympia",
+            "type": "City"
+          }
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Fire District No. 8 Fire Commissioner, Position No. 1",
+      "candidates": [
+        {
+          "name": "Gloria Zvirzdys",
+          "party": 0,
+          "votes": 2528,
+          "percentage": 97.9845,
+          "jurisdiction": "Fire"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 52,
+          "percentage": 2.0155,
+          "jurisdiction": "Fire"
+        }
+      ],
+      "metadata": {
+        "title": "Fire District No. 8 Fire Commissioner, Position No. 1",
+        "votewa_title": "Fire Protection District No. 08 - South Bay Fire Commissioner, Position No. 1",
+        "description": "Six year term",
+        "location": {
+          "name": "Fire District No. 8",
+          "location": {
+            "name": "Olympia",
+            "type": "City"
+          }
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Fire District No. 8 Fire Commissioner, Position No. 2",
+      "candidates": [
+        {
+          "name": "Jake Hunter",
+          "party": 0,
+          "votes": 2563,
+          "percentage": 98.5012,
+          "jurisdiction": "Fire"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 39,
+          "percentage": 1.4988,
+          "jurisdiction": "Fire"
+        }
+      ],
+      "metadata": {
+        "title": "Fire District No. 8 Fire Commissioner, Position No. 2",
+        "votewa_title": "Fire Protection District No. 08 - South Bay Fire Commissioner, Position No. 2",
+        "description": "Six year term",
+        "location": {
+          "name": "Fire District No. 8",
+          "location": {
+            "name": "Olympia",
+            "type": "City"
+          }
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Fire Protection District No. 9 Fire Commissioner, Position No. 3",
+      "candidates": [
+        {
+          "name": "Len Albert",
+          "party": 0,
+          "votes": 2657,
+          "percentage": 98.8835,
+          "jurisdiction": "Fire"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 30,
+          "percentage": 1.1165,
+          "jurisdiction": "Fire"
+        }
+      ],
+      "metadata": {
+        "title": "Fire Protection District No. 9 Fire Commissioner, Position No. 3",
+        "votewa_title": "FIRE PROTECTION DISTRICT NO. 9 - MCLANE BLACK LAKE Fire Commissioner, Position No. 3",
+        "description": "Six year term",
+        "location": {
+          "name": "Fire Protection District No. 9",
+          "location": {
+            "name": "Olympia",
+            "type": "City"
+          }
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Fire Protection District No. 9 Fire Commissioner, Position No. 4",
+      "candidates": [
+        {
+          "name": "Jason A. Foust",
+          "party": 0,
+          "votes": 2570,
+          "percentage": 98.5429,
+          "jurisdiction": "Fire"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 38,
+          "percentage": 1.4571,
+          "jurisdiction": "Fire"
+        }
+      ],
+      "metadata": {
+        "title": "Fire Protection District No. 9 Fire Commissioner, Position No. 4",
+        "votewa_title": "FIRE PROTECTION DISTRICT NO. 9 - MCLANE BLACK LAKE Fire Commissioner, Position No.  4",
+        "description": "Four year unexpired term",
+        "location": {
+          "name": "Fire Protection District No. 9",
+          "location": {
+            "name": "Olympia",
+            "type": "City"
+          }
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Fire Protection District No. 9 Fire Commissioner, Position No. 5",
+      "candidates": [
+        {
+          "name": "Mark Thompson",
+          "party": 0,
+          "votes": 2658,
+          "percentage": 98.737,
+          "jurisdiction": "Fire"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 34,
+          "percentage": 1.263,
+          "jurisdiction": "Fire"
+        }
+      ],
+      "metadata": {
+        "title": "Fire Protection District No. 9 Fire Commissioner, Position No. 5",
+        "votewa_title": "FIRE PROTECTION DISTRICT NO. 9 - MCLANE BLACK LAKE Fire Commissioner, Position No. 5",
+        "description": "Six year term",
+        "location": {
+          "name": "Fire Protection District No. 9",
+          "location": {
+            "name": "Olympia",
+            "type": "City"
+          }
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Fire Protection District No. 12 Fire Commissioner, Position No. 4",
+      "candidates": [
+        {
+          "name": "James Freed",
+          "party": 0,
+          "votes": 1139,
+          "percentage": 96.8537,
+          "jurisdiction": "Fire"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 37,
+          "percentage": 3.1463,
+          "jurisdiction": "Fire"
+        }
+      ],
+      "metadata": {
+        "title": "Fire Protection District No. 12 Fire Commissioner, Position No. 4",
+        "votewa_title": "FIRE PROTECTION DISTRICT 12 Fire Commissioner, Position No. 4",
+        "description": "Six year term",
+        "location": {
+          "name": "Fire Protection District No. 12",
+          "location": {
+            "name": "Tenino",
+            "type": "City"
+          }
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Fire Protection District No. 13 Fire Commissioner, Position No. 1",
+      "candidates": [
+        {
+          "name": "Arthur Dalessandro",
+          "party": 0,
+          "votes": 1352,
+          "percentage": 98.9751,
+          "jurisdiction": "Fire"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 14,
+          "percentage": 1.0249,
+          "jurisdiction": "Fire"
+        }
+      ],
+      "metadata": {
+        "title": "Fire Protection District No. 13 Fire Commissioner, Position No. 1",
+        "votewa_title": "Fire Protection District No. 13 - Griffin Fire Commissioner, Position No. 1",
+        "description": "Four year unexpired term",
+        "location": {
+          "name": "Fire Protection District No. 13",
+          "location": {
+            "name": "Thurston County",
+            "type": "County"
+          }
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Fire Protection District No. 13 Fire Commissioner, Position No. 3",
+      "candidates": [
+        {
+          "name": "Dave Pearsall",
+          "party": 0,
+          "votes": 1361,
+          "percentage": 98.6947,
+          "jurisdiction": "Fire"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 18,
+          "percentage": 1.3053,
+          "jurisdiction": "Fire"
+        }
+      ],
+      "metadata": {
+        "title": "Fire Protection District No. 13 Fire Commissioner, Position No. 3",
+        "votewa_title": "Fire Protection District No. 13 - Griffin Fire Commissioner, Position No. 3",
+        "description": "Six year term",
+        "location": {
+          "name": "Fire Protection District No. 13",
+          "location": {
+            "name": "Thurston County",
+            "type": "County"
+          }
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Fire Protection District No. 17 Fire Commissioner, Position No. 1",
+      "candidates": [
+        {
+          "name": "Harry W. Miller",
+          "party": 0,
+          "votes": 558,
+          "percentage": 97.8947,
+          "jurisdiction": "Fire"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 12,
+          "percentage": 2.1053,
+          "jurisdiction": "Fire"
+        }
+      ],
+      "metadata": {
+        "title": "Fire Protection District No. 17 Fire Commissioner, Position No. 1",
+        "votewa_title": "FIRE PROTECTION DISTRICT NO. 17 - BALD HILLS Fire Commissioner, Position No. 1",
+        "description": "Six year term",
+        "location": {
+          "name": "Fire Protection District No. 17"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "SE Thurston Fire Authority Sub Region 1 Fire Commissioner, Position No. 2",
+      "candidates": [
+        {
+          "name": "David Shepherd",
+          "party": 0,
+          "votes": 3002,
+          "percentage": 98.2009,
+          "jurisdiction": "Fire"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 55,
+          "percentage": 1.7991,
+          "jurisdiction": "Fire"
+        }
+      ],
+      "metadata": {
+        "title": "SE Thurston Fire Authority Sub Region 1 Fire Commissioner, Position No. 2",
+        "votewa_title": "SE Thurston Fire Authority Sub Region 1 Fire Commissioner, Position No. 2",
+        "description": "Six year term",
+        "location": {
+          "name": "SE Thurston Fire Authority"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "SE Thurston Fire Authority Sub Region 2 Fire Commissioner, Position No. 2",
+      "candidates": [
+        {
+          "name": "Jeff DeHan",
+          "party": 0,
+          "votes": 3083,
+          "percentage": 98.656,
+          "jurisdiction": "Fire"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 42,
+          "percentage": 1.344,
+          "jurisdiction": "Fire"
+        }
+      ],
+      "metadata": {
+        "title": "SE Thurston Fire Authority Sub Region 2 Fire Commissioner, Position No. 2",
+        "votewa_title": "SE Thurston Fire Authority Sub Region 2 Fire Commissioner, Position No. 2 ",
+        "description": "Jeff Dehan",
+        "location": {
+          "name": "SE Thurston Fire Authority"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "SE Thurston Fire Authority Sub Region 3 Fire Commissioner, Position No. 1",
+      "candidates": [
+        {
+          "name": "Bill DeVore",
+          "party": 0,
+          "votes": 2913,
+          "percentage": 97.5553,
+          "jurisdiction": "Fire"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 73,
+          "percentage": 2.4447,
+          "jurisdiction": "Fire"
+        }
+      ],
+      "metadata": {
+        "title": "SE Thurston Fire Authority Sub Region 3 Fire Commissioner, Position No. 1",
+        "votewa_title": "SE Thurston Fire Authority Sub Region 3 Fire Commissioner, Position No. 1",
+        "description": "Four year unexpired term",
+        "location": {
+          "name": "SE Thurston Fire Authority"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "SE Thurston Fire Authority Sub Region 3 Fire Commissioner, Position No. 2",
+      "candidates": [
+        {
+          "name": "Steven Slater",
+          "party": 0,
+          "votes": 3019,
+          "percentage": 98.6279,
+          "jurisdiction": "Fire"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 42,
+          "percentage": 1.3721,
+          "jurisdiction": "Fire"
+        }
+      ],
+      "metadata": {
+        "title": "SE Thurston Fire Authority Sub Region 3 Fire Commissioner, Position No. 2",
+        "votewa_title": "SE Thurston Fire Authority Sub Region 3 Fire Commissioner, Position No. 2",
+        "description": "Six year term",
+        "location": {
+          "name": "SE Thurston Fire Authority"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "West Thurston Regional Fire Authority Fire Commissioner, Position No. 1",
+      "candidates": [
+        {
+          "name": "Jeff Merryman",
+          "party": 0,
+          "votes": 1492,
+          "percentage": 81.3966,
+          "jurisdiction": "Fire"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 341,
+          "percentage": 18.6034,
+          "jurisdiction": "Fire"
+        }
+      ],
+      "metadata": {
+        "title": "West Thurston Regional Fire Authority Fire Commissioner, Position No. 1",
+        "votewa_title": "WEST THURSTON  REGIONAL FIRE AUTHORITY ROCHESTER Fire Commissioner, Position No. 1",
+        "description": "Six year term",
+        "location": {
+          "name": "West Thurston Regional Fire Authority"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "West Thurston Regional Fire Authority (Littlerock) Fire Commissioner, Position No. 2",
+      "candidates": [
+        {
+          "name": "Michael Reed",
+          "party": 0,
+          "votes": 1274,
+          "percentage": 85.7335,
+          "jurisdiction": "Fire"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 212,
+          "percentage": 14.2665,
+          "jurisdiction": "Fire"
+        }
+      ],
+      "metadata": {
+        "title": "West Thurston Regional Fire Authority (Littlerock) Fire Commissioner, Position No. 2",
+        "votewa_title": "WEST THURSTON  REGIONAL FIRE AUTHORITY LITTLEROCK Fire Commissioner, Position No. 2",
+        "description": "Six year term",
+        "location": {
+          "name": "West Thurston Regional Fire Authority (Littlerock)"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Tanglewilde Parks & Recreation District No. 1 Parks & Recreation Commissioner, Position No. 1",
+      "candidates": [
+        {
+          "name": "Dayv Lowry",
+          "party": 0,
+          "votes": 276,
+          "percentage": 97.5265,
+          "jurisdiction": "Park and Recreation"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 7,
+          "percentage": 2.4735,
+          "jurisdiction": "Park and Recreation"
+        }
+      ],
+      "metadata": {
+        "title": "Tanglewilde Parks & Recreation District No. 1 Parks & Recreation Commissioner, Position No. 1",
+        "votewa_title": "TANGLEWILDE PARKS &amp; RECREATION DISTRICT NO. 1 Parks &amp; Recreation Commissioner, Position No. 1",
+        "description": "Two year unexpired term",
+        "location": {
+          "name": "Tanglewilde Parks & Recreation District No. 1"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Tanglewilde Parks & Recreation District No. 1 Parks & Recreation Commissioner, Position No. 5",
+      "candidates": [
+        {
+          "name": "Alexis Wallace",
+          "party": 0,
+          "votes": 244,
+          "percentage": 94.5736,
+          "jurisdiction": "Park and Recreation"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 14,
+          "percentage": 5.4264,
+          "jurisdiction": "Park and Recreation"
+        }
+      ],
+      "metadata": {
+        "title": "Tanglewilde Parks & Recreation District No. 1 Parks & Recreation Commissioner, Position No. 5",
+        "votewa_title": "TANGLEWILDE PARKS &amp; RECREATION DISTRICT NO. 1 Parks &amp; Recreation Commissioner, Position No. 5",
+        "description": "Two year unexpired term",
+        "location": {
+          "name": "Tanglewilde Parks & Recreation District No. 1"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Cemetery District No. 1 Cemetary Commissioner, Position No. 3",
+      "candidates": [
+        {
+          "name": "Marc S. Spiegelberg",
+          "party": 0,
+          "votes": 2064,
+          "percentage": 98.5203,
+          "jurisdiction": "Cemetery"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 31,
+          "percentage": 1.4797,
+          "jurisdiction": "Cemetery"
+        }
+      ],
+      "metadata": {
+        "title": "Cemetery District No. 1 Cemetary Commissioner, Position No. 3",
+        "votewa_title": "CEMETERY DISTRICT NO. 1 (GRAND MOUND) Cemetery Commissioner, Position No. 3",
+        "description": "Six year term",
+        "location": {
+          "name": "Cemetery District No. 1"
+        },
+        "type": "office"
+      }
+    },
+    {
+      "title": "Cemetery District No. 2 Cemetery Commissioner, Position No. 3",
+      "candidates": [
+        {
+          "name": "Kristen Colt",
+          "party": 0,
+          "votes": 2621,
+          "percentage": 94.4164,
+          "jurisdiction": "Cemetery"
+        },
+        {
+          "name": "WRITE-IN",
+          "party": 0,
+          "votes": 155,
+          "percentage": 5.5836,
+          "jurisdiction": "Cemetery"
+        }
+      ],
+      "metadata": {
+        "title": "Cemetery District No. 2 Cemetery Commissioner, Position No. 3",
+        "votewa_title": "Cemetery District No. 2 (Yelm) Cemetery Commissioner, Position No. 3",
+        "description": "Six year term",
+        "location": {
+          "name": "Cemetery District No. 2"
+        },
+        "type": "office"
+      }
+    }
+  ]
+}

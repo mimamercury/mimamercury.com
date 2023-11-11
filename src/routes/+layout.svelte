@@ -10,20 +10,16 @@ import HeaderMenu from '$lib/components/HeaderMenu.svelte';
 import Newsletter from '$lib/components/Newsletter.svelte';
 import JoinNewsClub from "$lib/components/JoinNewsClub.svelte";
 
-
 let previous_route
 afterNavigate((params) => {
   if (!previous_route) {
-    // console.log('previous_route before', previous_route, params.type)
     previous_route = params.to?.route.id;
-    // console.log('previous_route after', previous_route, params.type)
     return
   }
 
   const isPreviousPage = !previous_route && previous_route === params.to?.route.id;
 
   if (isPreviousPage) {
-    // console.log('isPreviousPage', isPreviousPage, params.type)
     previous_route = params.from?.route.id;
     return
   }
@@ -31,16 +27,13 @@ afterNavigate((params) => {
   const isPopState = params.type === 'popstate';
 
   if (isPopState) {
-    // console.log('isPopState', isPopState, params.type)
     previous_route = params.from?.route.id;
     return
   }
 
   if (!isPreviousPage && !isPopState) {
     const elemPage = document.querySelector('#page')
-    // console.log('should scroll to top')
     if (elemPage !== null) {
-      // console.log('scrolling to top')
       elemPage.scrollTo({ top: 0 })
     }
   }

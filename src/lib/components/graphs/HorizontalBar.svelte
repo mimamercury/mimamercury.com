@@ -1,13 +1,19 @@
 <script>
 import { LayerCake, Svg } from 'layercake';
-import { scaleBand } from 'd3-scale';
+import { scaleBand, scaleLinear } from 'd3-scale';
 
 import Bar from './Bar.svelte';
 import AxisX from './AxisX.svelte';
 import AxisY from './AxisY.svelte';
 
 export let data;
-export let left_padding = 55
+export let left_padding = undefined
+
+export const xDomain = [0, null];
+export const yDomain = undefined;
+
+const left = typeof left_padding === 'function'
+    ? left_padding(data) :( left_padding || 55)
 
 const xKey = 'value';
 const yKey = 'label';
@@ -26,26 +32,33 @@ data.forEach(d => {
 */
 .chart-container {
     width: 100%;
-    height: 250px;
+    height: 100px;
 }
 </style>
 
-<div class="chart-container">
+<div class="chart-container font-sans">
 <LayerCake
-    padding={{ top: 0, bottom: 20, left: left_padding }}
+    padding={{ top: 0, bottom: 20, left }}
     x={xKey}
     y={yKey}
+    xScale={scaleLinear([10, 130], [0, 960])}
     yScale={scaleBand().padding(0.3)}
-    xDomain={[0, null]}
+    xDomain={xDomain}
+    yDomain={
+        data.sort((a, b) => {
+            return b[xKey] - a[xKey];
+        }).map(d => d[yKey])
+    }
     data={data}
 >
     <Svg>
-    <AxisX
+    <!-- <AxisX
         gridlines={true}
         baseline={true}
         snapTicks={true}
-    />
+    /> -->
     <AxisY
+        ticks={1}
         gridlines={false}
     />
     <Bar/>

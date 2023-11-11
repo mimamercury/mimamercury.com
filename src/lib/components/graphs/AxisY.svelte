@@ -74,7 +74,6 @@ $: tickVals = Array.isArray(ticks) ? ticks :
 <style>
 .tick {
     font-size: .8em;
-    font-weight: 200;
 }
 
 .tick line {
