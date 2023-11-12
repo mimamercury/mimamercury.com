@@ -23,7 +23,7 @@ There are four main approaches planned:
 
 This combination of approaches is relatively unique in the South Sound, but publications in other areas are successful holding events, selling products, and membership programs to augment and sustain the publication.
 
-More info about how to support this publication can be found below, and as the plan adapts details will be shared through the [newsletter](/about/membership/newsletter/).
+More info about how to support this publication can be found below, and as the plan adapts details will be shared through the [newsletter](/newsletter/).
 
 ## Who works on this?
 Right now this is a one person project!
