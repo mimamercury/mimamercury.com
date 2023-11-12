@@ -48,13 +48,12 @@ afterNavigate((params) => {
 <AppShell slotPageHeader="px-4 py-8 mb-8" slotSidebarRight="" slotPageFooter="p-8" scrollbarGutter="stable">
   <svelte:fragment slot="pageHeader">
       <div class="mx-auto max-w-screen-sm">
-        <img src="/images/mima_mercury_logomark.png" width="30px" class="mx-auto mb-[4px]" alt="Logo" />
-        <h1 class="text-sm text-center">
-            <a href="/" class="serif">
-                  The Mima Mercury
-              </a>
+        <a href="/" class="serif">
+          <img src="/images/mima_mercury_logomark.png" width="30px" class="mx-auto mb-[4px]" alt="Logo" />
+          <h1 class="text-sm text-center">
+            The Mima Mercury 
           </h1>
-          <!-- <hr class="border-primary-500 mx-auto mt-[4px] w-[60px]" /> -->
+        </a>
       </div>
   </svelte:fragment>
 
