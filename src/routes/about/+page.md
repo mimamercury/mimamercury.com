@@ -16,10 +16,10 @@ There will be no third-party advertising on the site, in the newsletter, or in o
 ## Is there a business plan?
 If there's no paywall and no third-party ads, how will this publication continue to exist? 
 
-There are four main approaches planned:
+There are a few main approaches planned:
 - Holding both free and paid local events. This might include concerts, talks, workshops, or other types of events we haven't thought of yet.
 - Offering products created by the team behind _The Mima Mercury_.
-- A membership program called that allows behind the scenes access to the publication and discounts on events and products.
+- A membership program that allows behind the scenes access to the publication and discounts on events and products.
 
 This combination of approaches is relatively unique in the South Sound, but publications in other areas are successful holding events, selling products, and membership programs to augment and sustain the publication.
 
