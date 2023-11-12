@@ -65,7 +65,7 @@ afterNavigate((params) => {
         <AppRailAnchor href="/elections/thurston/2023/" name="Elections" value={0} title="Elections" class="text-left">
           <p class="text-left pl-6 text-base font-medium">Elections</p>
         </AppRailAnchor>
-        <AppRailAnchor href="/about/membership/newsletter/" name="Newsletter" value={1} title="Newsletter">
+        <AppRailAnchor href="/newsletter/" name="Newsletter" value={1} title="Newsletter">
           <p class="text-left pl-6 text-base font-medium">Newsletter</p>
         </AppRailAnchor>
         <AppRailAnchor href="/about" name="About" value={1} title="About">
