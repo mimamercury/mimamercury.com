@@ -16,16 +16,16 @@ const formatted_time = format(new Date(overview.date), 'h:mm a')
 <div class="grid grid-flow-col justify-center gap-12 mt-12">
     <div class="">
         <p class="text-center italic not-prose mb-0">Total Ballots Cast</p>
-        <span class="font-bold text-3xl lg:text-8xl mt-0 text-primary-500 dark:text-secondary-500">{format_number(overview.total_ballots)}</span>
+        <span class="font-bold text-3xl lg:text-7xl mt-0 text-primary-500 dark:text-secondary-500">{format_number(overview.total_ballots)}</span>
     </div>
 
     <div class="">
         <p class="text-center italic not-prose mb-0">Total <b>Blank</b> Ballots</p>
         <div class="grid grid-flow-col">
-            <span class="font-bold text-3xl lg:text-8xl mt-0 text-primary-500 dark:text-secondary-500">{overview.total_blank_ballots}</span>
-            <span class="text-3xl lg:text-8xl text-gray-300 dark:text-gray-800"> (</span>
-            <span class="text-xs italic text-md lg:mt-7">why have <br>you people <br>done this?</span>
-            <span class="text-3xl lg:text-8xl text-gray-300 dark:text-gray-800">)</span>
+            <span class="font-bold text-3xl lg:text-7xl mt-0 text-primary-500 dark:text-secondary-500">{overview.total_blank_ballots}</span>
+            <span class="text-3xl lg:text-7xl text-gray-300 dark:text-gray-700"> (</span>
+            <span class="text-xs italic text-md lg:mt-5">why have you <br>people done this?</span>
+            <span class="text-3xl lg:text-7xl text-gray-300 dark:text-gray-700">)</span>
         </div>
     </div>
 </div>
