@@ -24,7 +24,7 @@ const formatted_time = format(new Date(overview.date), 'h:mm a')
             </div>
         </div>
     </div>
-    <p class="text-xl lg:text-3xl text-center mb-2 underlin">See more elections results.</p>
+    <p class="text-xl lg:text-3xl text-center mb-2 underline">See more election results.</p>
 </section>
 </a>
 
