@@ -1,6 +1,7 @@
 <script>
 import format from 'date-fns/format/index.js'
 import Newsletter from '$components/Newsletter.svelte'
+import PostListCompact from '$components/PostListCompact.svelte';
 export let data
 
 const { overview } = data.results
@@ -32,18 +33,11 @@ const formatted_time = format(new Date(overview.date), 'h:mm a')
 
 <p class="mb-4 font-bold text-2xl">Recent posts</p>
 
-{#each data.posts as post}
-<p class="not-prose p-0 mb-3 font-sans">
-    <a href="/posts/{post.slug}/" class="not-prose font-sans border-l-4 border-surface-800 pl-3 block py-1 hover:underline hover:border-surface-600">
-      {post.title}
-    </a>
-  </p>
-{/each}
-
+<PostListCompact posts={data.posts} />
 
 <hr class="divider w-72 mx-auto border-surface-200 dark:border-surface-700 my-12">
 
 <div class="text-center">
-    <h2>Join the weekly newsletter!</h2>
+    <h2 class="font-bold text-xl">Join the weekly newsletter!</h2>
     <Newsletter label={false} />
 </div>

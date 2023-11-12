@@ -11,10 +11,9 @@ export let data;
 export let left_padding = undefined
 
 export const xDomain = [0, null];
-export const yDomain = undefined;
 
 const left = typeof left_padding === 'function'
-    ? left_padding(data) :( left_padding || 55)
+    ? left_padding(data) : (left_padding || 55)
 
 const xKey = 'value';
 const yKey = 'label';
@@ -66,7 +65,7 @@ $: fill = $modeCurrent ? 'fill-black' : 'fill-white';
         gridlines={false}
         fill_color={fill}
     />
-    <Bar/>
+    <Bar />
     </Svg>
 </LayerCake>
 </div>
