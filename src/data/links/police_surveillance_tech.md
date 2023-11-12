@@ -1,6 +1,7 @@
 ---
 title: Police surveillance tech of the South Sound
 promoted: false
+published: false
 slug: police_surveillance_tech_south_sound
 author: Seth Vincent
 author_slug: sethvincent

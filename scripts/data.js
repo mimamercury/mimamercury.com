@@ -29,6 +29,7 @@ await markdownDirectoryToTable({
         topics: 'TEXT[]',
         content: 'TEXT',
         promoted: 'BOOLEAN',
+        published: 'BOOLEAN',
     }
 })
 
@@ -41,7 +42,8 @@ await markdownDirectoryToTable({
         title: 'TEXT',
         slug: 'TEXT',
         content: 'TEXT',
-        promoted: 'BOOLEAN'
+        promoted: 'BOOLEAN',
+        published: 'BOOLEAN',
     }
 })
 
@@ -58,11 +60,12 @@ await markdownDirectoryToTable({
 //         content: 'TEXT',
 //         topics: 'TEXT[]',
 //         promoted: 'BOOLEAN',
+//         published: 'BOOLEAN',
 //     }
 // })
 
-const posts = db.prepare('SELECT * FROM posts ORDER BY created DESC;').all()
-const topics = db.prepare('SELECT * FROM topics;').all()
+const posts = db.prepare('SELECT * FROM posts where published = True ORDER BY created DESC;').all()
+const topics = db.prepare('SELECT * FROM topics where published = True;').all()
 // const links = db.prepare('SELECT * FROM links ORDER BY created DESC;').all()
 
 await writeJson(postsJsonFilepath, posts)

@@ -1,6 +1,7 @@
 ---
 title: "Curious if your Washington State friends, family, and mortal enemies vote? You might be able to find out."
 promoted: true
+published: true
 slug: look_up_voting_history_nov_8_2023
 author: Seth Vincent
 author_slug: sethvincent

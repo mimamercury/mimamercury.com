@@ -1,6 +1,7 @@
 ---
 title: Who sends in blank ballots?
 promoted: true
+published: true
 slug: blank_ballots_nov_8_2023
 author: Seth Vincent
 author_slug: sethvincent
