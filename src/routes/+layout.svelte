@@ -43,8 +43,6 @@ afterNavigate((params) => {
 })
 </script>
 
-<!-- <svelte:head>{@html `<script>${autoModeWatcher.toString()} autoModeWatcher();</script>`}</svelte:head> -->
-
 <AppShell slotPageHeader="px-4 py-8 mb-8" slotSidebarRight="" slotPageFooter="p-8" scrollbarGutter="stable">
   <svelte:fragment slot="pageHeader">
       <div class="mx-auto max-w-screen-sm">
