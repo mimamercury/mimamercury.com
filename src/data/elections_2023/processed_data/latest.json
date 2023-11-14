@@ -4,7 +4,8 @@
     "estimated_remaining_ballots": 2000,
     "total_blank_ballots": 23,
     "registered_voters": 196717,
-    "date": "11/13/2023, 5:00:00 PM"
+    "date": "11/13/2023, 5:00:00 PM",
+    "next_count_date": "11/14/2023, 5:00:00 PM"
   },
   "propositions": [
     {
