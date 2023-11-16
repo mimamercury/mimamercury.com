@@ -1,5 +1,11 @@
 <script>
 import Newsletter from "$components/Newsletter.svelte";
+import PostListCompact from "$components/PostListCompact.svelte"
+
+export let data
+
+const { newsletters } = data
+
 </script>
 
 <div class="prose dark:prose-invert">
@@ -13,3 +19,11 @@ There aren't a lot of great publications covering the South Sound. With your sup
 <Newsletter />
 
 </div>
+
+<hr class="divider w-72 mx-auto border-bottom-surface-100 my-12 border-surface-200 dark:border-surface-700">
+
+<p class="mb-4 font-bold text-2xl">Recent newsletter issues</p>
+
+<PostListCompact posts={newsletters} />
+
+<hr class="divider w-72 mx-auto border-surface-200 dark:border-surface-700 my-12">

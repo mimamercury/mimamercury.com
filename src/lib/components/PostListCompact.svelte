@@ -1,5 +1,11 @@
 <script>
+import format from 'date-fns/format/index.js'
     export let posts
+
+  function format_date (date) {
+    return format(new Date(date), 'MMMM d')
+  }
+console.log(posts)
 </script>
 
 {#each posts as post}
@@ -21,6 +27,7 @@
         "
     >
     {post.title}
+    <span class="text-xs font-sans block text-gray-200">{format_date(post.updated)}</span>
   </a>
 </p>
 {/each}
