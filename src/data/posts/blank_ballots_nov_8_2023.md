@@ -6,11 +6,11 @@ slug: blank_ballots_nov_8_2023
 author: Seth Vincent
 author_slug: sethvincent
 created: "11/08/2023, 5:00:00 PM"
-updated: "11/13/2023, 5:27:00 PM"
+updated: "11/15/2023, 4:30:00 PM"
 topics: ['elections', 'elections_2023']
 ---
 
-As of the latest election count update, 23 people in Thurston County, WA chose to send in blank ballots. Why have they done this?
+As of the latest election count update, 27 people in Thurston County, WA chose to send in blank ballots. Why have they done this?
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/wKbU8B-QVZk?si=Zb5-5Cwhjxcx_9kF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
