@@ -32,10 +32,8 @@ const { overview, propositions, offices } = data.results
 <p class="not-prose block italic text-center mt-0 text-sm lg:text-base max-w-2xl mx-auto">Next count update estimated to be <br> released <b>{format_date(overview.next_count_date)}</b> at {format_time(overview.next_count_date)} <br>with an estimated <b>{overview.estimated_remaining_ballots}</b> ballots remaining.</p>
 <br>
 <p class="not-prose block italic text-center mt-0 text-sm lg:text-base max-w-2xl mx-auto">
-    The election will be certified on November 27, 2023.
+    The election will be certified on November 28, 2023.
 </p>
-
-
 
 <hr class="divider w-72 mx-auto border-surface-200 dark:border-surface-700 my-12">
 
