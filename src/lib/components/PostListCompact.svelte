@@ -1,17 +1,17 @@
 <script>
-import format from 'date-fns/format/index.js'
-    export let posts
+    import { format_date } from '$lib/utils/format.js'
 
-  function format_date (date) {
-    return format(new Date(date), 'MMMM d')
-  }
-console.log(posts)
+    export let posts
+    export let post_type = 'posts'
+
+
+
 </script>
 
 {#each posts as post}
 <p class="not-prose p-0 mb-3 font-sans">
   <a
-    href="/posts/{post.slug}/"
+    href="/{post_type}/{post.slug}/"
     class="
             not-prose
             font-sans
@@ -27,7 +27,7 @@ console.log(posts)
         "
     >
     {post.title}
-    <span class="text-xs font-sans block text-gray-200">{format_date(post.updated)}</span>
+    <span class="text-xs font-sans block">{format_date(post.updated)}</span>
   </a>
 </p>
 {/each}

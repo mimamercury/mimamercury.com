@@ -1,26 +1,16 @@
 <script>
-import format from 'date-fns/format/index.js'
 import { format_number, round_decimal } from '@editorialapp/datatools/numbers'
 import HorizontalBar from '$components/graphs/HorizontalBar.svelte';
+import PostListCompact from '$components/PostListCompact.svelte';
+import { format_date, format_time } from '$lib/utils/format.js';
 
 export let data;
 
 const { overview, propositions, offices } = data.results
-
-function time_format (date) {
-    return format(new Date(date), 'h:mm a')
-}
-
-function date_format (date) {
-    return format(new Date(date), 'MMMM d, yyyy')
-}
-
-const formatted_date = format(new Date(overview.date), 'MMMM d, yyyy')
-const formatted_time = format(new Date(overview.date), 'h:mm a')
 </script>
 
 <h1 class="not-prose text-center font-bold text-3xl mb-1">2023 Thurston County Elections</h1>
-<p class="italic text-center not-prose mt-0 text-sm">Unofficial results as of {date_format(overview.date)} at {time_format(overview.date)}</p>
+<p class="italic text-center not-prose mt-0 text-sm">Unofficial results as of {format_date(overview.date)} at {format_time(overview.date)}</p>
 <div class="grid grid-flow-col justify-center gap-12 mt-12">
     <div class="">
         <p class="text-center italic not-prose mb-0">Total Ballots Cast</p>
@@ -39,7 +29,7 @@ const formatted_time = format(new Date(overview.date), 'h:mm a')
 </div>
 
 <hr class="divider w-72 mx-auto border-surface-200 dark:border-surface-700 my-12">
-<p class="not-prose block italic text-center mt-0 text-sm lg:text-base max-w-2xl mx-auto">Next count update estimated to be <br> released <b>{date_format(overview.next_count_date)}</b> at {time_format(overview.next_count_date)} <br>with an estimated <b>{overview.estimated_remaining_ballots}</b> ballots remaining.</p>
+<p class="not-prose block italic text-center mt-0 text-sm lg:text-base max-w-2xl mx-auto">Next count update estimated to be <br> released <b>{format_date(overview.next_count_date)}</b> at {format_time(overview.next_count_date)} <br>with an estimated <b>{overview.estimated_remaining_ballots}</b> ballots remaining.</p>
 <br>
 <p class="not-prose block italic text-center mt-0 text-sm lg:text-base max-w-2xl mx-auto">
     The election will be certified on November 27, 2023.
@@ -51,28 +41,7 @@ const formatted_time = format(new Date(overview.date), 'h:mm a')
 
 <h3 class="mb-4 font-bold text-2xl center">Recent Elections posts</h3>
 
-{#each data.elections_2023_posts as post}
-<p class="not-prose p-0 mb-3 font-sans">
-  <a
-    href="/posts/{post.slug}/"
-    class="
-            not-prose
-            font-sans
-            border-l-4
-            border-surface-100
-            dark:border-surface-800
-            pl-3
-            block
-            py-1
-            hover:underline
-            hover:border-surface-400
-            dark:hover:border-surface-500
-        "
-    >
-    {post.title}
-  </a>
-</p>
-{/each}
+<PostListCompact posts={data.elections_2023_posts} />
 
 <hr class="divider w-72 mx-auto border-surface-200 dark:border-surface-700 my-12">
 

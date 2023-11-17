@@ -12,7 +12,7 @@ topics: ['newsletter', 'newsletter_main', 'the_mima_mercury']
 
 This is the first newsletter issue of _The Mima Mercury_! Welcome!
 
-The contents of each issue is likely to change considerably over the coming weeks. As early subscribers I suspect you're interested in what this project is and how it will operate. That'll be part of these first few weeks of newsletters. Discussing _The Mima Mercury_ is the real meat of this first issue. And I do mean discussion! You can reply to this email and your message will arrive at a real human. Please do ask questions or make suggestions of any kind, but I'd especially like to hear about topics you'd like to see covered.
+The contents of each issue is likely to change considerably over the coming weeks. As early subscribers I suspect you're interested in what this project is and how it will operate. That'll be part of these first few weeks of newsletters. Discussing _The Mima Mercury_ is the real meat of this first issue. And I do mean discussion! You can [send an email](/about/contact/) and your message will arrive at a real human. Please do ask questions or make suggestions of any kind, but I'd especially like to hear about topics you'd like to see covered.
 
 ## About _The Mima Mercury_
 This publication is not intended to compete with existing news sources. There is a lot of local news to cover and a lot of different ways it can be covered. There's always room for more useful news. So how is _The Mima Mercury_ different?
@@ -58,7 +58,4 @@ Soon a membership program with interesting perks and opportunities will be creat
 
 **[Donate.](https://donate.stripe.com/4gw14n3GA8wheJOeUV)**
 
-Or, if you feel like it's too soon for that, reply to this email with a description of things you'd like to see covered in Olympia, in Thurston County, and in the broader South Sound area.
-
-Thank you,
-Seth Vincent
+Or, if you feel like it's too soon for that, [send an email](/about/contact/) with a description of things you'd like to see covered in Olympia, in Thurston County, and in the broader South Sound area.

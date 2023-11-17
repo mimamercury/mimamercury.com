@@ -24,6 +24,6 @@ There aren't a lot of great publications covering the South Sound. With your sup
 
 <p class="mb-4 font-bold text-2xl">Recent newsletter issues</p>
 
-<PostListCompact posts={newsletters} />
+<PostListCompact posts={newsletters} post_type='newsletter' />
 
 <hr class="divider w-72 mx-auto border-surface-200 dark:border-surface-700 my-12">
