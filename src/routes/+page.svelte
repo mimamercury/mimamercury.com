@@ -12,7 +12,7 @@ const formatted_time = format(new Date(overview.date), 'h:mm a')
 <a href="/elections/thurston/2023" class="no-underline">
 <section class="not-prose bg-secondary-500 py-8 rounded-md  text-surface-900">
     <h1 class="text-lg md:text-xl lg:text-3xl text-center mb-2 font-extrabold">2023 Thurston County Elections</h1>
-    <div class="text-xs md:text-sm text-center mt-0 mb-4">As of {formatted_date} at {formatted_time} the unofficial results include:</div>
+    <div class="text-xs md:text-sm text-center mt-0 mb-4">Official results:</div>
     <div class="grid grid-flow-col mb-8">
         <div class="text-center">
             <div class="mb-0">Total Ballots Cast</div>

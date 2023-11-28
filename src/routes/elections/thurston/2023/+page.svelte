@@ -10,7 +10,7 @@ const { overview, propositions, offices } = data.results
 </script>
 
 <h1 class="not-prose text-center font-bold text-3xl mb-1">2023 Thurston County Elections</h1>
-<p class="italic text-center not-prose mt-0 text-sm">Unofficial results as of {format_date(overview.date)} at {format_time(overview.date)}</p>
+<p class="italic text-center not-prose mt-0 text-sm">Official results as of {format_date(overview.date)} at {format_time(overview.date)}</p>
 <div class="grid grid-flow-col justify-center gap-12 mt-12">
     <div class="">
         <p class="text-center italic not-prose mb-0">Total Ballots Cast</p>
@@ -30,7 +30,7 @@ const { overview, propositions, offices } = data.results
 
 <hr class="divider w-72 mx-auto border-surface-200 dark:border-surface-700 my-12">
 <p class="not-prose block italic text-center mt-0 text-sm lg:text-base max-w-2xl mx-auto">
-    Official count to be released <b>{format_date(overview.next_count_date)} at 10 a.m..</b>
+    Official results released <b>{format_date(overview.date)}.</b>
 </p>
 <br>
 
