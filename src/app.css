@@ -9,6 +9,10 @@ html, body {
     @apply h-full overflow-hidden;
 }
 
+.mm_border_color {
+    @apply dark:border-surface-700 border-surface-300;
+}
+
 .dark hr:not(.divider) {
     border-color: rgb(var(--color-primary-500));
 }

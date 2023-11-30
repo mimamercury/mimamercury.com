@@ -65,10 +65,13 @@ afterNavigate((params) => {
         <AppRailAnchor href="/elections/thurston/2023/" name="Elections" value={0} title="Elections" class="text-left">
           <p class="text-left pl-6 text-base font-medium">Elections</p>
         </AppRailAnchor>
-        <AppRailAnchor href="/newsletter/" name="Newsletter" value={1} title="Newsletter">
+        <AppRailAnchor href="/food-inspections" name="Food inspection" value={1} title="Food inspection" class="text-left">
+          <p class="text-left pl-6 text-base font-medium">Food inspections</p>
+        </AppRailAnchor>
+        <AppRailAnchor href="/newsletter/" name="Newsletter" value={2} title="Newsletter">
           <p class="text-left pl-6 text-base font-medium">Newsletter</p>
         </AppRailAnchor>
-        <AppRailAnchor href="/about" name="About" value={1} title="About">
+        <AppRailAnchor href="/about" name="About" value={3} title="About">
           <p class="text-left pl-6 text-base font-medium">About</p>
         </AppRailAnchor>
           <div class="pl-6 text-left">
