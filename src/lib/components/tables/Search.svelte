@@ -15,10 +15,10 @@
 
 <style>
     input {
-        border: 1px solid #e0e0e0;
+        /* border: 1px solid #e0e0e0; */
         border-radius: 4px;
         outline: none;
-        padding: 0 8px;
+        padding: 4px;
         line-height: 24px;
         margin: 0;
         height: 24px;
@@ -27,6 +27,7 @@
         max-width: 176px;
         min-width: 96px;
         transition: all, 0.1s;
+        font-size: 12px;
     }
     input:focus {
         border: 1px solid #bdbdbd;

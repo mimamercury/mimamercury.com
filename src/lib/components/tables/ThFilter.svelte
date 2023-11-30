@@ -9,11 +9,12 @@
     handler.on('clearFilters', () => value = '')
 </script>
 
-<th class={$$props.class ?? ''}>
+<th class="border-r mm_border_color {$$props.class ?? ''}">
     <input
         style:text-align={align}
         type="text"
         placeholder={handler.i18n.filter}
+        class="px-2"
         spellcheck="false"
         bind:value
         on:input={() => handler.filter(value, filterBy, comparator)}
@@ -21,15 +22,11 @@
 </th>
 
 <style>
-    th {
-        border-bottom: 1px solid #e0e0e0;
-    }
     input {
         width: 100%;
         height: 24px;
         border: none;
         text-align: left;
-        padding: 0 20px;
         background: inherit;
         outline: none;
         border-radius: 0;
@@ -39,7 +36,7 @@
     input::placeholder {
         /* color: #bdbdbd; */
         font-style: italic;
-        font-size: 13px;
+        font-size: 12px;
     }
     input:focus {
         outline: none;

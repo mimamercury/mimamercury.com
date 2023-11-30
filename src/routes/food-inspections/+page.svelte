@@ -1,4 +1,5 @@
 <script>
+    import { format_date } from '$lib/utils/format.js'
     import { DataHandler, DataTable, Th, ThFilter } from '$lib/components/tables/index.js'
 
     export let data;
@@ -21,8 +22,9 @@
     <p>A lower score is better. Zero points is the goal.</p>
 </div>
 
+<div class="font-sans text-xs">Last updated: {format_date(table.metadata.date)}</div>
 <DataTable {handler}>
-    <table class="font-sans">
+    <table class="font-sans border mm_border_color">
         <thead class="font-semibold">
             <tr>
                 {#each columns as column}
@@ -41,7 +43,7 @@
         </thead>
         <tbody>
             {#each $rows as row}
-                <tr class="hover:bg-surface-300 dark:hover:bg-surface-700">
+                <tr class="hover:bg-surface-100 dark:hover:bg-surface-800">
                     {#each columns as column}
                         <td class="border mm_border_color h-full">
                             <a href="/food-inspections/{row.id}" class="block w-full h-full p-2">
@@ -59,7 +61,3 @@
         Data Source: Thurston County Public Health & Social Services Department
     </a>
 </p>
-
-<style>
-
-</style>

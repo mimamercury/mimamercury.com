@@ -7,11 +7,11 @@
     const options = [5, 10, 20, 50, 100]
 </script>
 
-<aside class={$$props.class ?? ''}>
+<aside class="text-xs text-white {$$props.class ?? ''}">
     {#if !small}
         <span>{handler.i18n.show}</span>
     {/if}
-    <select bind:value={$rowsPerPage} on:change={() => handler.setPage(1)}>
+    <select bind:value={$rowsPerPage} on:change={() => handler.setPage(1)} class="m-2 h-8 p-1 pl-2 pr-6 text-xs text-black select-text">
         {#each options as option}
             <option value={option}>
                 {option}
@@ -26,12 +26,8 @@
 <style>
     aside {
         display: flex;
-        justify-content: flex-start;
+        /* justify-content: flex-start; */
         align-items: center;
-        height: 32px;
-        color: #757575;
-    }
-    select {
-        margin: 0 4px;
+        /* height: 20px; */
     }
 </style>

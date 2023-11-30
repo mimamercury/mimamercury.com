@@ -40,6 +40,7 @@
     {:else}
         <button
             type="button"
+            class="dark:hover:bg-surface-700 dark:hover:disabled:bg-surface-900 hover:bg-surface-100 hover:disabled:bg-none border border-r-0 dark:border-surface-700 border-surface-300"
             class:disabled={$pageNumber === 1}
             on:click={() => handler.setPage('previous')}
         >
@@ -48,6 +49,8 @@
         {#each $pages as page}
             <button
                 type="button"
+                class="dark:hover:bg-surface-700 dark:hover:disabled:bg-surface-900 hover:bg-surface-100 hover:disabled:bg-none border border-r-0 dark:border-surface-700 border-surface-300"
+                class:disabled={$pageNumber === page}
                 class:active={$pageNumber === page}
                 class:ellipse={page === null}
                 on:click={() => handler.setPage(page)}
@@ -57,6 +60,7 @@
         {/each}
         <button
             type="button"
+            class="dark:hover:bg-surface-700 dark:hover:disabled:bg-surface-900 hover:bg-surface-100 hover:disabled:bg-none border dark:border-surface-700 border-surface-300"
             class:disabled={$pageNumber === $pageCount}
             on:click={() => handler.setPage('next')}
         >
@@ -80,8 +84,8 @@
         padding: 0;
         transition: all, 0.2s;
         line-height: 32px;
-        border: 1px solid #e0e0e0;
-        border-right: none;
+        /* border: 1px solid #e0e0e0; */
+        /* border-right: none; */
         border-radius: 0;
         outline: none;
     }
@@ -89,7 +93,7 @@
         border-radius: 4px 0 0 4px;
     }
     button:last-child {
-        border-right: 1px solid #e0e0e0;
+        /* border-right: 1px solid #e0e0e0; */
         border-radius: 0 4px 4px 0;
     }
 

@@ -11,7 +11,7 @@
     on:click={() => handler.sort(orderBy)}
     class:sortable={orderBy}
     class:active={$sort.identifier === identifier}
-    class="{$$props.class ?? ''} px-2 text-sm"
+    class="{$$props.class ?? ''} px-2 pt-2 text-sm border-r mm_border_color"
 >
     <div
         class="flex"
@@ -27,18 +27,12 @@
         /* background: inherit; */
         white-space: nowrap;
         user-select: none;
-        border-bottom: 1px solid #e0e0e0;
+        /* border-bottom: 1px solid #e0e0e0; */
     }
     th.sortable {
         cursor: pointer;
     }
-    th strong {
-        white-space: pre-wrap;
-        font-size: 13.5px;
-        line-height: 16px;
-    }
     th.sortable div.flex {
-        padding: 0;
         display: flex;
         align-items: center;
         height: 100%;
