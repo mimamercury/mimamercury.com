@@ -1,12 +1,7 @@
 <script>
-import format from 'date-fns/format/index.js'
 import Newsletter from '$components/Newsletter.svelte'
 import PostListCompact from '$components/PostListCompact.svelte';
 export let data
-
-const { overview } = data.results
-const formatted_date = format(new Date(overview.date), 'MMMM d')
-const formatted_time = format(new Date(overview.date), 'h:mm a')
 </script>
 
 <a href="/food-inspections" class="no-underline">

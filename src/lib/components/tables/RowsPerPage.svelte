@@ -7,11 +7,11 @@
     const options = [5, 10, 20, 50, 100]
 </script>
 
-<aside class="text-xs text-white {$$props.class ?? ''}">
+<aside class="text-xs dark:text-white {$$props.class ?? ''}">
     {#if !small}
         <span>{handler.i18n.show}</span>
     {/if}
-    <select bind:value={$rowsPerPage} on:change={() => handler.setPage(1)} class="m-2 h-8 p-1 pl-2 pr-6 text-xs text-black select-text">
+    <select bind:value={$rowsPerPage} on:change={() => handler.setPage(1)} class="m-2 h-8 p-1 pl-2 pr-6 text-xs text-black dark:text-white select-text bg-inherit">
         {#each options as option}
             <option value={option}>
                 {option}
