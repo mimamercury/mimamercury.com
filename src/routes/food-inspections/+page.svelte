@@ -14,6 +14,7 @@
 
     const handler = new DataHandler(table.rows, { rowsPerPage: 50 })
     const rows = handler.getRows()
+    handler.sortDesc('total_points')
 </script>
 
 <div class="prose dark:prose-invert mb-10">
