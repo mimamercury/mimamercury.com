@@ -19,7 +19,7 @@
 
 <div class="prose dark:prose-invert mb-10">
     <h1>Food safety inspections</h1>
-    <p>Inspections from the last 90 days in Thurston County. You can search, sort and filter to see locations with high or low total points or find your favorite restaurant. Click a row to see more details.</p>
+    <p>Inspections from the last 90 days in Thurston County. You can search, sort, and filter to see locations with high or low total points or find your favorite restaurant. Click a row to see more details.</p>
     <p>A lower score is better. Zero points is the goal.</p>
 </div>
 
