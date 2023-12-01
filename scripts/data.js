@@ -32,6 +32,7 @@ await markdownDirectoryToTable({
         content: 'TEXT',
         promoted: 'BOOLEAN',
         published: 'BOOLEAN',
+        post_type: 'TEXT'
     }
 })
 
@@ -65,6 +66,7 @@ await markdownDirectoryToTable({
         topics: 'TEXT[]',
         promoted: 'BOOLEAN',
         published: 'BOOLEAN',
+        post_type: 'TEXT'
     }
 })
 

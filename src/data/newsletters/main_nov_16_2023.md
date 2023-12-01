@@ -8,6 +8,7 @@ author_slug: sethvincent
 created: "11/16/2023, 2:45:00 PM"
 updated: "11/16/2023, 2:45:00 PM"
 topics: ['newsletter', 'newsletter_main', 'the_mima_mercury']
+post_type: 'newsletter'
 ---
 
 This is the first newsletter issue of _The Mima Mercury_! Welcome!

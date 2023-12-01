@@ -8,6 +8,7 @@ author_slug: sethvincent
 created: "11/30/2023, 5:15:00 PM"
 updated: "11/30/2023, 5:15:00 PM"
 topics: ['newsletter', 'newsletter_main', 'the_mima_mercury']
+post_type: 'newsletter'
 ---
 
 <img src="/images/photos/spooky_road_nov_29.jpg" alt="A spooky, curvy road that almost disappears into fog and darkness. It's a slightly blurry photo, like the photographer was moving quickly. Liminal." class="not-prose border border-black shadow mt-5 mb-1">

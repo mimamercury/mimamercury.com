@@ -1,8 +1,9 @@
 <script>
     import format from 'date-fns/format/index.js'
     export let data
+
     const { post } = data
-    const date = data.post.updated > data.post.created ? new Date(data.post.updated) : new Date(data.post.created)
+    const date = post.updated > post.created ? new Date(post.updated) : new Date(post.created)
     const formatted_date = format(new Date(date), 'MMMM d, yyyy')
 </script>
 

@@ -4,14 +4,14 @@
     export let posts
     export let post_type = 'posts'
 
-
+console.log(posts)
 
 </script>
 
 {#each posts as post}
 <p class="not-prose p-0 mb-3 font-sans">
   <a
-    href="/{post_type}/{post.slug}/"
+    href="/{post.post_type ?? post_type}/{post.slug}/"
     class="
             not-prose
             font-sans

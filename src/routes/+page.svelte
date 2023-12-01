@@ -2,6 +2,15 @@
 import Newsletter from '$components/Newsletter.svelte'
 import PostListCompact from '$components/PostListCompact.svelte';
 export let data
+
+const posts = [...data.posts, ...data.newsletters].sort((a, b) => {
+    const dateA = new Date(a.updated).getTime()
+    const dateB = new Date(b.updated).getTime()
+
+    return dateA > dateB ? -1 : dateA < dateB ? 1 : 0
+})
+
+console.log('posts', posts)
 </script>
 
 <a href="/food-inspections" class="no-underline">
@@ -23,7 +32,7 @@ export let data
 
 <p class="mb-4 font-bold text-2xl">Recent posts</p>
 
-<PostListCompact posts={data.posts} />
+<PostListCompact {posts} />
 
 <hr class="divider w-72 mx-auto border-surface-200 dark:border-surface-700 my-12">
 
