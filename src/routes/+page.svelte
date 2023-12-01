@@ -9,8 +9,6 @@ const posts = [...data.posts, ...data.newsletters].sort((a, b) => {
 
     return dateA > dateB ? -1 : dateA < dateB ? 1 : 0
 })
-
-console.log('posts', posts)
 </script>
 
 <a href="/food-inspections" class="no-underline">

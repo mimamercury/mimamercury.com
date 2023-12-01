@@ -3,9 +3,6 @@
 
     export let posts
     export let post_type = 'posts'
-
-console.log(posts)
-
 </script>
 
 {#each posts as post}
