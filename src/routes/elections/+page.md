@@ -14,4 +14,4 @@ export let data
 <p class="mb-4 font-bold text-2xl">Recent Elections posts</p>
 </div>
 
-<PostListCompact posts={data.elections_2023_posts} />
+<PostListCompact posts={data.posts} />

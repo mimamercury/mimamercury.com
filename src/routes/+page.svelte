@@ -11,6 +11,11 @@ const posts = [...data.posts, ...data.newsletters].sort((a, b) => {
 })
 </script>
 
+<svelte:head>
+	<title>The Mima Mercury</title>
+    <meta name="description" content="News apps for South Puget Sound.">
+</svelte:head>
+
 <a href="/food-inspections" class="no-underline">
     <section class="not-prose bg-secondary-500 py-8 px-4 rounded-md  text-surface-900">
         <div class="text-center">New!</div>
