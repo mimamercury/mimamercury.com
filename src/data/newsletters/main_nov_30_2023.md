@@ -12,7 +12,7 @@ topics: ['newsletter', 'newsletter_main', 'the_mima_mercury']
 
 <img src="/images/photos/spooky_road_nov_29.jpg" alt="A spooky, curvy road that almost disappears into fog and darkness. It's a slightly blurry photo, like the photographer was moving quickly. Liminal." class="not-prose border border-black shadow mt-5 mb-1">
 
-<div class="not-prose text-xs font-sans">My favorite kind of Olympia morning. Not pictured: the car flashing their lights behind me while I stood in the middle of the road.</div>
+<div class="not-prose text-xs font-sans">My favorite kind of Olympia morning. Not pictured: the car flashing their lights behind me while I stood in the middle of the road 🤦‍♂️</div>
 
 ## How does your favorite restaurant score in safety inspections?
 This week I've added a new feature to _The Mima Mercury_: [a food safety inspection explorer](https://mimamercury.com/food-inspections) for Thurston County.
