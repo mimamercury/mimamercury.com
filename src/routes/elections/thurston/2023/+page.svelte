@@ -38,7 +38,7 @@ const { overview, propositions, offices } = data.results
 
 <h3 class="mb-4 font-bold text-2xl center">Recent Elections posts</h3>
 
-<PostListCompact posts={data.elections_2023_posts} />
+<PostListCompact posts={data.posts} />
 
 <hr class="divider w-72 mx-auto border-surface-200 dark:border-surface-700 my-12">
 
