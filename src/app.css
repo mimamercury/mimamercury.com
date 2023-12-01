@@ -21,11 +21,11 @@ html, body {
     @apply font-serif;
 }
 
-.prose img {
+.prose img:not(.not-prose) {
     border: 2px solid #efefef;
     @apply mx-auto;
 }
 
-.dark .prose img {
+.dark .prose img:not(.not-prose) {
     border: 2px solid white;
 }

@@ -94,3 +94,20 @@ await writeJson(postsJsonFilepath, posts)
 await writeJson(topicsJsonFilepath, topics)
 await writeJson(newslettersJsonFilepath, newsletters)
 // await writeJson(linksJsonFilepath, links)
+
+
+import { fileURLToPath } from 'url'
+
+const __filename = fileURLToPath(import.meta.url)
+
+// existing
+export async function build_data_files() {
+
+}
+// end existing
+
+let entryFile = process.argv?.[1];
+
+if (entryFile === __filename) {
+  build_data_files();
+}
