@@ -15,7 +15,7 @@ topics: ['newsletter', 'newsletter_main', 'the_mima_mercury']
 <div class="not-prose text-xs font-sans">My favorite kind of Olympia morning. Not pictured: the car flashing their lights behind me while I stood in the middle of the road.</div>
 
 ## How does your favorite restaurant score in safety inspections?
-This week I've added a new feature to _The Mima Mercury_: [a food safety inspection explorer](https://mimamercury.com/food-inspections).
+This week I've added a new feature to _The Mima Mercury_: [a food safety inspection explorer](https://mimamercury.com/food-inspections) for Thurston County.
 
 In this first release it only tracks the last 90 days of inspections, but it will update every day to pull in the most recent inspections, so you can check back any time.
 
