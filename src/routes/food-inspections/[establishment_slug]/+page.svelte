@@ -6,6 +6,11 @@
     const first = food_inspections[0]
 </script>
 
+<svelte:head>
+	<title>Food safety inspections for {first.establishment} | The Mima Mercury</title>
+    <meta name="description" content="See recent food safety inspections for {first.establishment}">
+</svelte:head>
+
 <div class="mb-2">
     <a href="/food-inspections" class="not-prose text-xs text-surface-900 bg-secondary-500 border border-secondary-500 font-sans rounded p-1 no-underline hover:shadow">Food inspections</a>
 </div>

@@ -8,6 +8,11 @@ const { newsletters } = data
 
 </script>
 
+<svelte:head>
+	<title>Join the newsletter of The Mima Mercury</title>
+    <meta name="description" content="A weekly newsletter for South Puget Sound.">
+</svelte:head>
+
 <div class="prose dark:prose-invert">
 
 # Join the newsletter!

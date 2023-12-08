@@ -9,6 +9,11 @@ export let data;
 const { overview, propositions, offices } = data.results
 </script>
 
+<svelte:head>
+	<title>2023 Thurston County Elections | The Mima Mercury</title>
+    <meta name="description" content="2023 Elections results for Thurston County.">
+</svelte:head>
+
 <h1 class="not-prose text-center font-bold text-3xl mb-1">2023 Thurston County Elections</h1>
 <p class="italic text-center not-prose mt-0 text-sm">Official results as of {format_date(overview.date)} at {format_time(overview.date)}</p>
 <div class="grid grid-flow-col justify-center gap-12 mt-12">

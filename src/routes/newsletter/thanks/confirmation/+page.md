@@ -1,3 +1,8 @@
+<svelte:head>
+	<title>Thanks! | The Mima Mercury</title>
+    <meta name="description" content="Thanks for joining the newsletter!">
+</svelte:head>
+
 # ✅ Thanks for joining the newsletter!
 
 The newsletter is sent on Thursdays each week.

@@ -1,3 +1,8 @@
+<svelte:head>
+	<title>Contact The Mima Mercury</title>
+    <meta name="description" content="News apps for South Puget Sound.">
+</svelte:head>
+
 # Contact
 
 Send over an email with ideas you have about topics that ought to be covered in the South Sound area! There's no suggestion that's too big or too small.

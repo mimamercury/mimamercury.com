@@ -3,6 +3,11 @@ import PostListCompact from '$components/PostListCompact.svelte'
 export let data
 </script>
 
+<svelte:head>
+	<title>Elections | The Mima Mercury</title>
+    <meta name="description" content="Elections information for the South Puget Sound.">
+</svelte:head>
+
 <div class="prose dark:prose-invert">
 
 # Elections

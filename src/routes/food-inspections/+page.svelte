@@ -18,7 +18,7 @@
 </script>
 
 <svelte:head>
-	<title>Food safety inspections</title>
+	<title>Food safety inspections | The Mima Mercury</title>
     <meta name="description" content="Learn about recent food safety inspections in Thurston County.">
 </svelte:head>
 

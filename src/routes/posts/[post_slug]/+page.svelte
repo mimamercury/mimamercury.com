@@ -7,6 +7,11 @@
     const formatted_date = format(new Date(date), 'MMMM d, yyyy')
 </script>
 
+<svelte:head>
+	<title>{data.post.title} | The Mima Mercury</title>
+  <meta name="description" content="Recent news about the South Puget Sound">
+</svelte:head>
+
 <h1 class="main-header">
     {data.post.title}
 </h1>

@@ -1,3 +1,8 @@
+<svelte:head>
+	<title>Thurston County Elections | The Mima Mercury</title>
+    <meta name="description" content="Elections information for Thurston County.">
+</svelte:head>
+
 <div class="prose dark:prose-invert">
 
 # Thurston County Elections

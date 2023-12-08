@@ -2,7 +2,14 @@
 import Newsletter from '$components/Newsletter.svelte'
 </script>
 
+<svelte:head>
+	<title>About The Mima Mercury</title>
+    <meta name="description" content="News apps for South Puget Sound.">
+</svelte:head>
+
 # About _The Mima Mercury_
+
+_The Mima Mercury_ is a not-for-profit news publication for South Puget Sound.
 
 ## What's with the name?
 The mima mounds found in Thurston County and nearby areas are inexplicable, lovely, and are part of essential prairie habitat for birds, butterflies, and other forms of life. [The Mima Mounds Natural Area Preserve](https://www.dnr.wa.gov/MimaMounds) has been an active research site for over 50 years! The mima mounds are an unusual local landmark, and are unlikely yet apt inspiration for this project. Let's create a local news publication as peculiar, vital, and long-lasting as those weird prairie mounds. 

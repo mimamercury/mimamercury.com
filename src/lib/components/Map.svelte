@@ -18,18 +18,18 @@
 	export let add_scale_control = true
 	export let add_attribution_control = true
 
-	let mapContainer;
+	let map_container
 
 	const init = async () => {
 			const map = new Map({
-				container: mapContainer,
+				container: map_container,
 				style: `https://api.maptiler.com/maps/basic/style.json?key=${PUBLIC_MAPTILER_KEY}`,
 				center,
 				zoom,
 				hash: true,
 				attributionControl: false
 			});
-			
+
 			if (setup) {
 				await setup(map)
 			}
@@ -45,7 +45,7 @@
 			if (add_scale_control) {
 				map.addControl(new ScaleControl({ maxWidth: 80, unit: 'metric' }), 'bottom-left');
 			}
-			
+
 			if (add_attribution_control) {
 				map.addControl(new AttributionControl({ compact: true }), 'bottom-right');
 			}
@@ -53,12 +53,12 @@
 			map_store.set(map);
 	};
 
-	$: if (mapContainer) {
+	$: if (map_container) {
 		init();
 	}
 </script>
 
-<div class="map" bind:this={mapContainer} />
+<div class="map" bind:this={map_container} />
 
 <style>
 	@import 'maplibre-gl/dist/maplibre-gl.css';
