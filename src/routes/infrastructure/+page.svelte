@@ -1,9 +1,11 @@
 <script>
-    import { Marker, Popup } from "maplibre-gl";
+    import maplibre from "maplibre-gl";
     import intersect from '@turf/intersect'
     import bboxPolygon from '@turf/bbox-polygon'
     import MapView from "$components/Map.svelte"
     import { format_date, format_time } from "$lib/utils/format.js";
+
+    const { Marker, Popup } = maplibre
 
     function unique_features (array, key) {
         const map = new Map(array.map((item) => {
@@ -78,7 +80,7 @@
             for (const point of travel_impacts_points) {
                 console.log('point', point)
                 const marker = new Marker({
-                    color: '#ff0000'
+                    color: '#eb6157'
                 })
                 marker.setLngLat(point.geometry.coordinates)
 
@@ -90,7 +92,7 @@
             }
 
             for (const point of pse_power_outage_points) {
-                const marker = new Marker()
+                const marker = new Marker({ color: '#570a35' })
                 marker.setLngLat(point.geometry.coordinates)
 
                 const fields = []
@@ -147,6 +149,17 @@
         Updated {format_date(thurston_county_travel_impacts.metadata.last_updated)} {format_time(thurston_county_travel_impacts.metadata.last_updated)}
     </span>
 </p>
+
+<div class="border border-surface-100 dark:border-surface-500 p-2 rounded-sm grid grid-flow-col text-xs font-sans justify-start gap-4 mb-2">
+    <div>
+        <div class="bg-[#eb6157] w-4 h-4 inline-block align-middle rounded-sm"></div> <div class="inline-block align-middle">Road closures</div>
+    </div>
+
+    <div>
+        <div class="bg-[#570a35] w-4 h-4 inline-block align-middle rounded-sm"></div> <div class="inline-block align-middle">Power outages</div>
+    </div>
+    
+</div>
 
 <MapView {setup} zoom={7.5} />
 
