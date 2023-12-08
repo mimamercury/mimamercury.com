@@ -126,11 +126,12 @@
 </script>
 
 <svelte:head>
-	<title>Power outages & road closures</title>
+	<title>Infrastructure status: power outages & road closures</title>
     <meta name="description" content="Learn about recent food safety inspections in Thurston County.">
 </svelte:head>
 
 <div class="prose dark:prose-invert mb-5">
+    <p class="text-sm italic mb-0 not-prose">Infrastructure status</p>
     <h1>Power outages & road closures</h1>
 </div>
 
