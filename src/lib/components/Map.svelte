@@ -6,35 +6,51 @@
 		ScaleControl,
 		AttributionControl
 	} from 'maplibre-gl';
-	import { map } from '$lib/stores/map.js';
+	import { map_store } from '$lib/stores/map.js';
 	import { PUBLIC_MAPTILER_KEY } from '$env/static/public';
+
+	export let setup
+	export let zoom = 9.3
+	export let center = [-122.9067, 47.0507]
+
+	export let add_navigation_control = true
+	export let add_geolocate_control = true
+	export let add_scale_control = true
+	export let add_attribution_control = true
 
 	let mapContainer;
 
-	const init = () => {
-		return new Promise(() => {
-			const _map = new Map({
+	const init = async () => {
+			const map = new Map({
 				container: mapContainer,
-				style: `https://api.maptiler.com/maps/streets/style.json?key=${PUBLIC_MAPTILER_KEY}`,
-				center: [-122.909, 47.044],
-				zoom: 6,
+				style: `https://api.maptiler.com/maps/basic/style.json?key=${PUBLIC_MAPTILER_KEY}`,
+				center,
+				zoom,
 				hash: true,
 				attributionControl: false
 			});
-			_map.addControl(new NavigationControl({}), 'top-right');
-			_map.addControl(
-				new GeolocateControl({
-					positionOptions: { enableHighAccuracy: true },
-					trackUserLocation: true
-				}),
-				'top-right'
-			);
-			_map.addControl(new ScaleControl({ maxWidth: 80, unit: 'metric' }), 'bottom-left');
-			_map.addControl(new AttributionControl({ compact: true }), 'bottom-right');
+			
+			if (setup) {
+				await setup(map)
+			}
 
-            _map.on('click', console.log)
-			map.set(_map);
-		});
+			if (add_navigation_control) {
+				map.addControl(new NavigationControl({}), 'top-right');
+			}
+
+			if (add_geolocate_control) {
+				map.addControl( new GeolocateControl({ positionOptions: { enableHighAccuracy: true }, trackUserLocation: true }), 'top-right');
+			}
+
+			if (add_scale_control) {
+				map.addControl(new ScaleControl({ maxWidth: 80, unit: 'metric' }), 'bottom-left');
+			}
+			
+			if (add_attribution_control) {
+				map.addControl(new AttributionControl({ compact: true }), 'bottom-right');
+			}
+
+			map_store.set(map);
 	};
 
 	$: if (mapContainer) {

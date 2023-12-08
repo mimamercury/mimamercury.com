@@ -68,6 +68,10 @@ afterNavigate((params) => {
         <AppRailAnchor href="/food-inspections" name="Food inspection" value={1} title="Food inspection" class="text-left">
           <p class="text-left pl-6 text-base font-medium">Food inspections</p>
         </AppRailAnchor>
+        <!-- <AppRailAnchor href="/infrastructure" name="Infrastructure" value={1} title="Infrastructure" class="text-left">
+          <p class="text-left pl-6 text-base font-medium">Power outages & road closures</p>
+        </AppRailAnchor> -->
+        
         <AppRailAnchor href="/newsletter/" name="Newsletter" value={2} title="Newsletter">
           <p class="text-left pl-6 text-base font-medium">Newsletter</p>
         </AppRailAnchor>

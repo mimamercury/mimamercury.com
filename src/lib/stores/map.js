@@ -11,4 +11,4 @@ function createMap() {
 		}
 	};
 }
-export const map = createMap();
+export const map_store = createMap();

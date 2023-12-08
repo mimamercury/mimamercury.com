@@ -97,7 +97,6 @@ await writeJson(topicsJsonFilepath, topics)
 await writeJson(newslettersJsonFilepath, newsletters)
 // await writeJson(linksJsonFilepath, links)
 
-
 import { fileURLToPath } from 'url'
 
 const __filename = fileURLToPath(import.meta.url)

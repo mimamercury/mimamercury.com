@@ -29,3 +29,11 @@ html, body {
 .dark .prose img:not(.not-prose) {
     border: 2px solid white;
 }
+
+.maplibregl-popup-content {
+    @apply text-surface-900 p-6;
+}
+
+.maplibregl-popup-close-button {
+    @apply px-1;
+}
