@@ -85,17 +85,17 @@
         scrollbar-width: thin;
     }
 
-    article::-webkit-scrollbar {
+    /* article::-webkit-scrollbar {
         width: 6px;
         height: 6px;
     }
     article::-webkit-scrollbar-track {
-        /* background: #f5f5f5; */
+        background: #f5f5f5;
     }
     article::-webkit-scrollbar-thumb {
-        /* background: #c2c2c2; */
+        background: #c2c2c2;
     }
     article::-webkit-scrollbar-thumb:hover {
-        /* background: #9e9e9e; */
-    }
+        background: #9e9e9e;
+    } */
 </style>

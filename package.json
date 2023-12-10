@@ -2,6 +2,7 @@
   "name": "mimamercury.com",
   "version": "0.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "timestamp": "date +%s",
     "build_data": "node scripts/data.js",
@@ -40,6 +41,5 @@
     "typescript": "^5.3.3",
     "udsv": "^0.5.3",
     "vite": "^4.5.1"
-  },
-  "type": "module"
+  }
 }

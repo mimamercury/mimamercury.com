@@ -1,6 +1,6 @@
 import { fetchJson } from '@editorialapp/datatools/fetch'
 
-/** @type {import('./$types').PageServerLoad */
+/** @type {import('./$types').PageServerLoad} */
 export async function load () {
     const thurston_county_travel_impacts = await fetchJson('https://raw.githubusercontent.com/mimamercury/thurston_county_travel_impacts/main/data/processed/latest.json')
     const thurston_county_travel_impacts_metadata = await fetchJson('https://raw.githubusercontent.com/mimamercury/thurston_county_travel_impacts/main/data/metadata.json')

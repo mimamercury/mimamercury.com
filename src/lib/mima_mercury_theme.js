@@ -1,6 +1,5 @@
-import type { CustomThemeConfig } from '@skeletonlabs/tw-plugin';
-
-export const MimaMercuryTheme: CustomThemeConfig = {
+/** {@type import("@skeletonlabs/tw-plugin").CustomThemeConfig} */
+export const MimaMercuryTheme = {
     name: 'mima_mercury_theme',
     properties: {
 		// =~= Theme Properties =~=
