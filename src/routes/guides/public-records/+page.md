@@ -1,3 +1,8 @@
+<svelte:head>
+	<title>Public records in South Puget Sound | The Mima Mercury</title>
+    <meta name="description" content="A guide to making public record requests in the South Sound area.">
+</svelte:head>
+
 <div class="prose dark:prose-invert">
 
 
