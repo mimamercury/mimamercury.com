@@ -5,8 +5,6 @@
 
 <div class="prose dark:prose-invert">
 
-
-
 # Public records in South Puget Sound
 
 This is a brief, work in progress guide to making public record requests in the South Sound area. Have suggestions for things that should be included? [Let us know!](/contact)

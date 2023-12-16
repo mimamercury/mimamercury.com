@@ -19,7 +19,7 @@
     "@skeletonlabs/skeleton": "^2.6.0",
     "@skeletonlabs/tw-plugin": "^0.3.0",
     "@sveltejs/adapter-auto": "^2.1.1",
-    "@sveltejs/kit": "^1.27.7",
+    "@sveltejs/kit": "^1.30.3",
     "@tailwindcss/forms": "^0.5.7",
     "@tailwindcss/typography": "^0.5.10",
     "@turf/bbox-polygon": "^6.5.0",
