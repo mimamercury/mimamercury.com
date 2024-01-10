@@ -10,7 +10,7 @@ updated: "01/10/2024, 11:16:00 AM"
 topics: ['legislature', 'legislature_2024']
 ---
 
-Legislative bills were introduced this week that would make performing abortions on others a felony, prohibit gender treatment medications and surgery, and require students to be called by their given names in school.
+Legislative bills were introduced this week that would make performing abortions on others a felony, prohibit gender-affirming care, and require students to be called by their given names in school.
 
 All bills are in the very early stages as this is the first week of Washington's 2024 legislative session. The state provides a [guide to citizen participation in legislature]().
 
@@ -40,7 +40,7 @@ The bill also states:
 - [Track this bill's status](https://app.leg.wa.gov/billsummary?BillNumber=6026&Year=2023&Initiative=false)
 - [Full text of SB 6026](https://lawfilesext.leg.wa.gov/biennium/2023-24/Pdf/Bills/Senate%20Bills/6026.pdf?q=20240110103816)
 
-## House Bill 2241: Make gender transition treatments illegal for minors
+## House Bill 2241: Make gender-affirming care illegal for minors
 Health care providers would be prohibited from providing these treatments under this bill:
 
 - Prescribing or administering gonadotropin-releasing hormoneanalogues or other synthetic drugs used to stop luteinizing hormone and follicle-stimulating hormone secretion, synthetic antiandrogen drugs used to block the androgen receptor, or any drug to suppress or delay normal puberty
