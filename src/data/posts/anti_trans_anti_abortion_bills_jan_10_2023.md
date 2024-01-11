@@ -66,7 +66,6 @@ Removing any healthy or nondiseased body part or tissue.
 The two anti-trans bills above were introduced in the first week of legislature
 - **2023-2024**
   - [HB 2241](https://app.leg.wa.gov/billsummary?BillNumber=2241&Year=2023&Initiative=false)
-  - [SB 6075](https://app.leg.wa.gov/billsummary?BillNumber=6075&Year=2023&Initiative=false)
   - [SB 6026](https://app.leg.wa.gov/billsummary?BillNumber=6026&Initiative=false&Year=2023)
   - [HB 1233](https://app.leg.wa.gov/billsummary?BillNumber=1233&Initiative=false&Year=2023)
   - [HB 1214](https://app.leg.wa.gov/billsummary?BillNumber=1214&Initiative=false&Year=2023)
