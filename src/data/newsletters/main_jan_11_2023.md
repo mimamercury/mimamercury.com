@@ -6,7 +6,7 @@ slug: newsletter_jan_11_2024
 author: Seth Vincent
 author_slug: sethvincent
 created: "01/11/2024, 2:45:00 PM"
-created: "01/11/2024, 2:45:00 PM"
+updated: "01/11/2024, 2:45:00 PM"
 topics: ['newsletter', 'newsletter_main', 'the_mima_mercury']
 post_type: 'newsletter'
 ---
