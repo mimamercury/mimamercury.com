@@ -40,7 +40,7 @@ const posts = [...data.posts, ...data.newsletters].sort((a, b) => {
 <hr class="divider w-72 mx-auto border-surface-200 dark:border-surface-700 my-12">
 
 <div class="prose dark:prose-invert text-center">
-    <h2 class="font-bold">Join the weekly newsletter!</h2>
+    <h2 class="font-bold">Join the weekly newsletter</h2>
     <Newsletter label={false} />
     <p class="text-sm italic"><a href="/newsletter">Read recent issues of the newsletter.</a></p>
 </div>
