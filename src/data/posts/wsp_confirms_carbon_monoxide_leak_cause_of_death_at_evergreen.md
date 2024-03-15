@@ -1,5 +1,5 @@
 ---
-title: "Washington State Patrol confirms carbon monoxide as cause of student death at Evergreen on Dec. 11 2023"
+title: "Washington State Patrol confirms carbon monoxide leak caused student death at Evergreen on Dec. 11 2023"
 promoted: true
 published: true
 slug: wsp_confirms_carbon_monoxide_leak_cause_of_death_at_evergreen
