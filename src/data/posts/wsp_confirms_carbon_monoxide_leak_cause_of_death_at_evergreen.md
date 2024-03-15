@@ -12,7 +12,7 @@ topics: ['evergreen']
 
 Improperly installed air intake and exhaust venting is the cause of the carbon monoxide leak that killed one student and hospitalized two others at The Evergreen State College on December 11, 2023 according to a Washington State Patrol release published March 13, 2024.
 
-The timeline released by WSP indicates that carbon monoxide alarms sounded andc were silenced three times on Dec. 11 from 5:41 a.m. to 10:11 a.m. The contracted supplier of the alarm recommended cleaning the alarms at 8:49 a.m., arrived to troubleshoot at 6:16 p.m. and reinstalled or reset the alarms at around 7 p.m.
+The timeline released by WSP indicates that carbon monoxide alarms sounded and were silenced three times on Dec. 11 from 5:41 a.m. to 10:11 a.m. The contracted supplier of the alarm [Convirgent](https://www.convergint.com/) recommended cleaning the alarms at 8:49 a.m., arrived to troubleshoot at 6:16 p.m. and reinstalled or reset the alarms at around 7 p.m.
 
 The alarms sounded a fourth time at 7:29 p.m.
 
