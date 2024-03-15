@@ -16,7 +16,7 @@ const posts = [...data.posts, ...data.newsletters].sort((a, b) => {
     <meta name="description" content="News apps for South Puget Sound.">
 </svelte:head>
 
-<a href="/food-inspections" class="no-underline">
+<!-- <a href="/food-inspections" class="no-underline">
     <section class="not-prose bg-secondary-500 py-8 px-4 rounded-md  text-surface-900">
         <div class="text-center">New!</div>
         <h1 class="text-xl text-center mb-2 font-extrabold">Food safety inspection explorer</h1>
@@ -29,9 +29,9 @@ const posts = [...data.posts, ...data.newsletters].sort((a, b) => {
         <h1 class="text-xl text-center mb-2 font-extrabold">2023 Thurston County Elections</h1>
         <p class="text-lg text-center mb-2 underline">See the official election results.</p>
     </section>
-</a>
+</a> -->
 
-<hr class="divider w-72 mx-auto border-bottom-surface-100 my-12 border-surface-200 dark:border-surface-700">
+<!-- <hr class="divider w-72 mx-auto border-bottom-surface-100 my-12 border-surface-200 dark:border-surface-700"> -->
 
 <p class="mb-4 font-bold text-2xl">Recent posts</p>
 
