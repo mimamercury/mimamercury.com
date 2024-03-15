@@ -18,4 +18,4 @@ The alarms sounded a fourth time at 7:29 p.m.
 
 The WSP timeline's only mention of checking for carbon monoxide leaks ocurred at 8:04 p.m., when a residential maintenance worker told TESC dispatch they were checking for possible leaks. Shortly after that they notified dispatch of seeing two people in distress and opened windows for ventilation. A TESC officer arrived in two minutes and the fire department arrived at 8:20 p.m.
 
-- Read the [WSP release](https://www.wsp.wa.gov/2024/03/13/findings-evergreen-state-college-carbon-monoxide-death-investigation/) and [timeline](https://www.wsp.wa.gov/wp-content/uploads/2024/03/WSP-Carbon-Monoxide-Death-Investigation-TIMELINE-Corrected-1130-March-13.pdf)).
+- Read the [WSP release](https://www.wsp.wa.gov/2024/03/13/findings-evergreen-state-college-carbon-monoxide-death-investigation/) and [timeline](https://www.wsp.wa.gov/wp-content/uploads/2024/03/WSP-Carbon-Monoxide-Death-Investigation-TIMELINE-Corrected-1130-March-13.pdf).
